@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JS on Hugo Bootstrap</title>
+    <title>JS on CDAF</title>
     <link>/en/tags/js/</link>
-    <description>Recent content in JS on Hugo Bootstrap</description>
+    <description>Recent content in JS on CDAF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>

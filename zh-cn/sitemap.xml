@@ -56,24 +56,6 @@
                 href="/zh-cn/docs/getting-started/"
                 />
   </url><url>
-    <loc>/zh-cn/docs/</loc>
-    <lastmod>2021-12-16T17:25:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/docs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/docs/"
-                />
-  </url><url>
     <loc>/zh-cn/</loc>
     <lastmod>2021-12-16T17:25:20+08:00</lastmod>
     <xhtml:link
@@ -95,6 +77,24 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="/zh-cn/"
+                />
+  </url><url>
+    <loc>/zh-cn/docs/</loc>
+    <lastmod>2021-12-16T17:25:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/docs/"
                 />
   </url><url>
     <loc>/zh-cn/series/</loc>

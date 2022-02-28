@@ -81,6 +81,29 @@
                 href="/en/categories/"
                 />
   </url><url>
+    <loc>/en/</loc>
+    <lastmod>2022-01-12T10:56:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url><url>
     <loc>/en/series/docs/</loc>
     <lastmod>2022-01-12T10:56:34-08:00</lastmod>
     <xhtml:link
@@ -114,29 +137,6 @@
   </url><url>
     <loc>/en/docs/layouts/docs/</loc>
     <lastmod>2022-01-12T10:56:34-08:00</lastmod>
-  </url><url>
-    <loc>/en/</loc>
-    <lastmod>2022-01-12T10:56:34-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
   </url><url>
     <loc>/en/categories/layouts/</loc>
     <lastmod>2022-01-12T10:56:34-08:00</lastmod>
