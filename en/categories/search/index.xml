@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Search on CDAF</title>
+    <title>Search on CDAF Blog</title>
     <link>/en/categories/search/</link>
-    <description>Recent content in Search on CDAF</description>
+    <description>Recent content in Search on CDAF Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <copyright>Copyright © 2022-{year} Jules Clements. All Rights Reserved.</copyright>
     <lastBuildDate>Fri, 03 Dec 2021 11:16:51 +0800</lastBuildDate><atom:link href="/en/categories/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Layout</title>

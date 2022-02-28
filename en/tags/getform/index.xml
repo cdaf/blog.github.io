@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getform on CDAF</title>
+    <title>Getform on CDAF Blog</title>
     <link>/en/tags/getform/</link>
-    <description>Recent content in Getform on CDAF</description>
+    <description>Recent content in Getform on CDAF Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <copyright>Copyright © 2022-{year} Jules Clements. All Rights Reserved.</copyright>
     <lastBuildDate>Tue, 30 Nov 2021 23:56:00 +0800</lastBuildDate><atom:link href="/en/tags/getform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact Form</title>
