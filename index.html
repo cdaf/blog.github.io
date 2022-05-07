@@ -156,14 +156,48 @@
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/posts/cdaf-containerdeploy/" class="db grow">
+          <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="db grow">
+            <img src="https://blog.cdaf.io/images/AdobeStock_101375810.jpeg" class="img" alt="image from Resolve and Reveal">
+          </a>
+        </div>
+      
+      <div class="blah w-100 w-60-ns pl3-ns">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="color-inherit dim link">
+            Resolve and Reveal
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.
+For the following example tokenised settings file, for example variables.tf
+variable &quot;terraform_token&quot; { default = &quot;%terraform_token%&quot; }variable &quot;api_ip&quot; { default = &quot;%api_ip%&quot; }variable &quot;redis_cache&quot; { default = &quot;%redis_cache%&quot; }Non-sensitive variable mapping can be applied to the properties.
+        </div>
+          <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+          
+        
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <a href="https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/" class="db grow">
             <img src="https://blog.cdaf.io/images/1649143357276.png" class="img" alt="image from CDAF containerDeploy">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/posts/cdaf-containerdeploy/" class="color-inherit dim link">
+          <a href="https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/" class="color-inherit dim link">
             CDAF containerDeploy
             </a>
         </h1>
@@ -172,7 +206,7 @@
 By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.
 When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.
         </div>
-          <a href="https://blog.cdaf.io/posts/cdaf-containerdeploy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -190,14 +224,14 @@ When deploying to remote targets using Web/REST API, or command line interfaces,
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/posts/variable-validation/" class="db grow">
+          <a href="https://blog.cdaf.io/posts/2022-02-21-variable-validation/" class="db grow">
             <img src="https://blog.cdaf.io/images/1645379680147.png" class="img" alt="image from Variable Validation">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/posts/variable-validation/" class="color-inherit dim link">
+          <a href="https://blog.cdaf.io/posts/2022-02-21-variable-validation/" class="color-inherit dim link">
             Variable Validation
             </a>
         </h1>
@@ -205,42 +239,7 @@ When deploying to remote targets using Web/REST API, or command line interfaces,
           CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
 VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets.
         </div>
-          <a href="https://blog.cdaf.io/posts/variable-validation/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/posts/feature-branch-environments/" class="db grow">
-            <img src="https://blog.cdaf.io/images/1645321833556.png" class="img" alt="image from CDAF Feature Branch Environments">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/posts/feature-branch-environments/" class="color-inherit dim link">
-            CDAF Feature Branch Environments
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-
-Important note: beware of potential environment drift over time as different environments receive different updates.
-        </div>
-          <a href="https://blog.cdaf.io/posts/feature-branch-environments/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2022-02-21-variable-validation/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -257,13 +256,19 @@ Important note: beware of potential environment drift over time as different env
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/" class="link black dim">
+            <a href="https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/" class="link black dim">
+              CDAF Feature Branch Environments
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/" class="link black dim">
               Upcoming CDAF Policy Changes
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/posts/cdaf-self-extracting-release/" class="link black dim">
+            <a href="https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/" class="link black dim">
               CDAF Self-extracting release
             </a>
           </h2>

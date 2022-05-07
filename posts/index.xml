@@ -6,13 +6,24 @@
     <description>Recent content in Posts on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resolve and Reveal</title>
+      <link>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</guid>
+      <description>PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.
+For the following example tokenised settings file, for example variables.tf
+variable &amp;quot;terraform_token&amp;quot; { default = &amp;quot;%terraform_token%&amp;quot; }variable &amp;quot;api_ip&amp;quot; { default = &amp;quot;%api_ip%&amp;quot; }variable &amp;quot;redis_cache&amp;quot; { default = &amp;quot;%redis_cache%&amp;quot; }Non-sensitive variable mapping can be applied to the properties.</description>
+    </item>
+    
     <item>
       <title>CDAF containerDeploy</title>
-      <link>https://blog.cdaf.io/posts/cdaf-containerdeploy/</link>
+      <link>https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/cdaf-containerdeploy/</guid>
+      <guid>https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/</guid>
       <description>containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.
 By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.
 When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.</description>
@@ -20,20 +31,20 @@ When deploying to remote targets using Web/REST API, or command line interfaces,
     
     <item>
       <title>Variable Validation</title>
-      <link>https://blog.cdaf.io/posts/variable-validation/</link>
+      <link>https://blog.cdaf.io/posts/2022-02-21-variable-validation/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/variable-validation/</guid>
+      <guid>https://blog.cdaf.io/posts/2022-02-21-variable-validation/</guid>
       <description>CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
 VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets.</description>
     </item>
     
     <item>
       <title>CDAF Feature Branch Environments</title>
-      <link>https://blog.cdaf.io/posts/feature-branch-environments/</link>
+      <link>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/feature-branch-environments/</guid>
+      <guid>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</guid>
       <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
 The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
 
@@ -42,20 +53,20 @@ Important note: beware of potential environment drift over time as different env
     
     <item>
       <title>Upcoming CDAF Policy Changes</title>
-      <link>https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/</link>
+      <link>https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/</guid>
+      <guid>https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/</guid>
       <description>Vagrant Rationalisation, Terraform Adoption While support for Vagrant will continue, the extend of regression testing for it will be reduced, i.e. only use cases that I cannot replace with docker will continue to be regression tested. Additional efforts will be make for “Manifest Releases” in Terraform (based on Autonomous Development, Authoritative Release. &amp;amp; Containers at Scale, A Containers Journey.
 CentOS Sunset, UBI8 With the end of CentOS in the infancy of CentOS 8, Fedora support by CDAF will based on Red Hat Universal Base Image (UBI).</description>
     </item>
     
     <item>
       <title>CDAF Self-extracting release</title>
-      <link>https://blog.cdaf.io/posts/cdaf-self-extracting-release/</link>
+      <link>https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/cdaf-self-extracting-release/</guid>
+      <guid>https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/</guid>
       <description>The previous output from the CDAF build process was directory of scripts and artifacts, and where remote execution was required, a compressed package. This was slow to upload due to many small files and also didn&amp;rsquo;t provide an obvious realisation of the Build, Run, Release principle.
 The Self-Extracting release now produces and single executable output. This addresses the issues above, while providing a more meaningful output for interpretive solutions, i.e. where no compile process is required.</description>
     </item>
