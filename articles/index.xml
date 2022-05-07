@@ -6,41 +6,27 @@
     <description>Recent content in Articles on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Apr 2021 08:04:45 +1200</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Containers at Scale</title>
       <link>https://blog.cdaf.io/articles/containers-at-scale/</link>
       <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/articles/containers-at-scale/</guid>
-      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.</description>
+      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.
+
+Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.</description>
     </item>
     
     <item>
-      <title>Variable Validation</title>
-      <link>https://blog.cdaf.io/articles/variable-validation/</link>
-      <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cdaf.io/articles/variable-validation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flamboyant</title>
+      <title>Autonomous Development, Authoritative Release.</title>
       <link>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</link>
-      <pubDate>Sun, 04 Apr 2021 19:45:43 +1200</pubDate>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</guid>
-      <description>Pretty Glamping</description>
-    </item>
-    
-    <item>
-      <title>Ghost</title>
-      <link>https://blog.cdaf.io/articles/feature-branch-environments/</link>
-      <pubDate>Sun, 04 Apr 2021 19:45:35 +1200</pubDate>
-      
-      <guid>https://blog.cdaf.io/articles/feature-branch-environments/</guid>
-      <description>stealthy survivalist</description>
+      <description>Realisation with Kubernetes and Terraform Cloud This article is an example realisation of the Containers at Scale, A Containers Journey article, and serves as a demonstration of principles.
+DevOps, as we are all aware, is not a thing, it’s a principle. That being said there are opportunities for material realisation of this principle. Intermediary tools which help exhibit this are Ansible Tower, Puppet Enterprise, Rundeck and Terraform Cloud.
+With competing desires, i.</description>
     </item>
     
   </channel>

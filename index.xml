@@ -6,50 +6,70 @@
     <description>Recent content in Continuous Delivery Automation Framework on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CDAF containerDeploy</title>
+      <link>https://blog.cdaf.io/posts/cdaf-containerdeploy/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/posts/cdaf-containerdeploy/</guid>
+      <description>containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.
+By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.
+When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.</description>
+    </item>
+    
+    <item>
+      <title>Variable Validation</title>
+      <link>https://blog.cdaf.io/posts/variable-validation/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/posts/variable-validation/</guid>
+      <description>CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
+VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets.</description>
+    </item>
+    
     <item>
       <title>Containers at Scale</title>
       <link>https://blog.cdaf.io/articles/containers-at-scale/</link>
       <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/articles/containers-at-scale/</guid>
-      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.</description>
+      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.
+
+Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.</description>
     </item>
     
     <item>
-      <title>Variable Validation</title>
-      <link>https://blog.cdaf.io/articles/variable-validation/</link>
-      <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cdaf.io/articles/variable-validation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flamboyant</title>
+      <title>Autonomous Development, Authoritative Release.</title>
       <link>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</link>
-      <pubDate>Sun, 04 Apr 2021 19:45:43 +1200</pubDate>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</guid>
-      <description>Pretty Glamping</description>
+      <description>Realisation with Kubernetes and Terraform Cloud This article is an example realisation of the Containers at Scale, A Containers Journey article, and serves as a demonstration of principles.
+DevOps, as we are all aware, is not a thing, it’s a principle. That being said there are opportunities for material realisation of this principle. Intermediary tools which help exhibit this are Ansible Tower, Puppet Enterprise, Rundeck and Terraform Cloud.
+With competing desires, i.</description>
     </item>
     
     <item>
-      <title>Ghost</title>
-      <link>https://blog.cdaf.io/articles/feature-branch-environments/</link>
+      <title>CDAF Feature Branch Environments</title>
+      <link>https://blog.cdaf.io/posts/feature-branch-environments/</link>
       <pubDate>Sun, 04 Apr 2021 19:45:35 +1200</pubDate>
       
-      <guid>https://blog.cdaf.io/articles/feature-branch-environments/</guid>
-      <description>stealthy survivalist</description>
+      <guid>https://blog.cdaf.io/posts/feature-branch-environments/</guid>
+      <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
+The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
+
+Important note: beware of potential environment drift over time as different environments receive different updates.</description>
     </item>
     
     <item>
-      <title>The Class B Site</title>
-      <link>https://blog.cdaf.io/posts/my-first-post/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      <title>Upcoming CDAF Policy Changes</title>
+      <link>https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/</link>
+      <pubDate>Sun, 04 Apr 2021 19:45:35 +1200</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/my-first-post/</guid>
-      <description>My friend Jules created this orsome website for me, and he lent me his domain. He&amp;rsquo;s sooo kool. Don&amp;rsquo;t change the header blocks in content files.</description>
+      <guid>https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/</guid>
+      <description>Vagrant Rationalisation, Terraform Adoption While support for Vagrant will continue, the extend of regression testing for it will be reduced, i.e. only use cases that I cannot replace with docker will continue to be regression tested. Additional efforts will be make for “Manifest Releases” in Terraform (based on Autonomous Development, Authoritative Release. &amp;amp; Containers at Scale, A Containers Journey.
+CentOS Sunset, UBI8 With the end of CentOS in the infancy of CentOS 8, Fedora support by CDAF will based on Red Hat Universal Base Image (UBI).</description>
     </item>
     
     <item>
