@@ -31,7 +31,7 @@ VARCHK properties.filename There are 5 rules available, two for plain text and 
     <item>
       <title>CDAF Feature Branch Environments</title>
       <link>https://blog.cdaf.io/posts/feature-branch-environments/</link>
-      <pubDate>Sun, 04 Apr 2021 19:45:35 +1200</pubDate>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/posts/feature-branch-environments/</guid>
       <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
@@ -43,11 +43,21 @@ Important note: beware of potential environment drift over time as different env
     <item>
       <title>Upcoming CDAF Policy Changes</title>
       <link>https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/</link>
-      <pubDate>Sun, 04 Apr 2021 19:45:35 +1200</pubDate>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/</guid>
       <description>Vagrant Rationalisation, Terraform Adoption While support for Vagrant will continue, the extend of regression testing for it will be reduced, i.e. only use cases that I cannot replace with docker will continue to be regression tested. Additional efforts will be make for “Manifest Releases” in Terraform (based on Autonomous Development, Authoritative Release. &amp;amp; Containers at Scale, A Containers Journey.
 CentOS Sunset, UBI8 With the end of CentOS in the infancy of CentOS 8, Fedora support by CDAF will based on Red Hat Universal Base Image (UBI).</description>
+    </item>
+    
+    <item>
+      <title>CDAF Self-extracting release</title>
+      <link>https://blog.cdaf.io/posts/cdaf-self-extracting-release/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/posts/cdaf-self-extracting-release/</guid>
+      <description>The previous output from the CDAF build process was directory of scripts and artifacts, and where remote execution was required, a compressed package. This was slow to upload due to many small files and also didn&amp;rsquo;t provide an obvious realisation of the Build, Run, Release principle.
+The Self-Extracting release now produces and single executable output. This addresses the issues above, while providing a more meaningful output for interpretive solutions, i.e. where no compile process is required.</description>
     </item>
     
   </channel>
