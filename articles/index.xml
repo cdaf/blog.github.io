@@ -39,5 +39,16 @@ With competing desires, i.</description>
 With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i.</description>
     </item>
     
+    <item>
+      <title>CDAF Self-hosted Pipeline Container Solution</title>
+      <link>https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/</guid>
+      <description>Continuous Delivery Automation Framework (CDAF) release 2.4.0 is now available. This completes the Self-hosted Pipeline Container epic and provides an opinionated feature, complimenting the existing containerBuild and targetlessCD features.
+The principles of this solution is to provide the containerised advantages of SaaS offerings like CodeShip, Travis, Circle CI, BitBucket Pipelines, etc. to organisations that host their own CI/CD workloads.
+Each feature can be utilised independently. The containerBuild uses a volume mount to supply the resulting artefacts to the pipeline for upload, while containerDeploy is immutable, being supplied the artefacts as part of the disk image.</description>
+    </item>
+    
   </channel>
 </rss>

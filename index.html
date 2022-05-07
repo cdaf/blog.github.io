@@ -138,7 +138,7 @@
       
        
           <h1 class="flex-none">
-            Recent Posts
+            Recent Articles
           </h1>
         
 
@@ -156,23 +156,23 @@
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/posts/cdaf-containerdeploy/" class="db grow">
-            <img src="https://blog.cdaf.io/images/1649143357276.png" class="img" alt="image from CDAF containerDeploy">
+          <a href="https://blog.cdaf.io/articles/containers-at-scale/" class="db grow">
+            <img src="https://blog.cdaf.io/images/1628300275054.jpg" class="img" alt="image from Containers at Scale">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/posts/cdaf-containerdeploy/" class="color-inherit dim link">
-            CDAF containerDeploy
+          <a href="https://blog.cdaf.io/articles/containers-at-scale/" class="color-inherit dim link">
+            Containers at Scale
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.
-By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.
-When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.
+          A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.
+
+Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.
         </div>
-          <a href="https://blog.cdaf.io/posts/cdaf-containerdeploy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/articles/containers-at-scale/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -190,22 +190,23 @@ When deploying to remote targets using Web/REST API, or command line interfaces,
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/posts/variable-validation/" class="db grow">
-            <img src="https://blog.cdaf.io/images/1645379680147.png" class="img" alt="image from Variable Validation">
+          <a href="https://blog.cdaf.io/articles/autonomous-development-authoritative-release/" class="db grow">
+            <img src="https://blog.cdaf.io/images/1628300439258.jpg" class="img" alt="image from Autonomous Development, Authoritative Release.">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/posts/variable-validation/" class="color-inherit dim link">
-            Variable Validation
+          <a href="https://blog.cdaf.io/articles/autonomous-development-authoritative-release/" class="color-inherit dim link">
+            Autonomous Development, Authoritative Release.
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
-VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets.
+          Realisation with Kubernetes and Terraform Cloud This article is an example realisation of the Containers at Scale, A Containers Journey article, and serves as a demonstration of principles.
+DevOps, as we are all aware, is not a thing, it’s a principle. That being said there are opportunities for material realisation of this principle. Intermediary tools which help exhibit this are Ansible Tower, Puppet Enterprise, Rundeck and Terraform Cloud.
+With competing desires, i.
         </div>
-          <a href="https://blog.cdaf.io/posts/variable-validation/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/articles/autonomous-development-authoritative-release/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -223,24 +224,22 @@ VARCHK properties.filename There are 5 rules available, two for plain text and 
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/posts/feature-branch-environments/" class="db grow">
-            <img src="https://blog.cdaf.io/images/1645321833556.png" class="img" alt="image from CDAF Feature Branch Environments">
+          <a href="https://blog.cdaf.io/articles/tabular-configuration-management/" class="db grow">
+            <img src="https://blog.cdaf.io/images/1615262255635.png" class="img" alt="image from Tabular Configuration Management">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/posts/feature-branch-environments/" class="color-inherit dim link">
-            CDAF Feature Branch Environments
+          <a href="https://blog.cdaf.io/articles/tabular-configuration-management/" class="color-inherit dim link">
+            Tabular Configuration Management
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-
-Important note: beware of potential environment drift over time as different environments receive different updates.
+          Configuration Management and Tokenised Properties Following the Twelve-Factor principle of configuration separation from the artifact, it is common to have developer centric representations of configuration, for example XML, JSON or YAML, and while these are native to developers, they can be obscure to business or operational users.
+With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i.
         </div>
-          <a href="https://blog.cdaf.io/posts/feature-branch-environments/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/articles/tabular-configuration-management/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -257,15 +256,15 @@ Important note: beware of potential environment drift over time as different env
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/posts/upcoming-cdaf-policy-changes/" class="link black dim">
-              Upcoming CDAF Policy Changes
+            <a href="https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/" class="link black dim">
+              CDAF Self-hosted Pipeline Container Solution
             </a>
           </h2>
         
 
         
         
-          <a href="https://blog.cdaf.io/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+          <a href="https://blog.cdaf.io/articles/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Articles</a>
         
         </section>
       
