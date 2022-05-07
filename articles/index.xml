@@ -29,5 +29,15 @@ DevOps, as we are all aware, is not a thing, it’s a principle. That being said
 With competing desires, i.</description>
     </item>
     
+    <item>
+      <title>Tabular Configuration Management</title>
+      <link>https://blog.cdaf.io/articles/tabular-configuration-management/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/articles/tabular-configuration-management/</guid>
+      <description>Configuration Management and Tokenised Properties Following the Twelve-Factor principle of configuration separation from the artifact, it is common to have developer centric representations of configuration, for example XML, JSON or YAML, and while these are native to developers, they can be obscure to business or operational users.
+With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i.</description>
+    </item>
+    
   </channel>
 </rss>
