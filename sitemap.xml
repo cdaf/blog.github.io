@@ -2,32 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://blog.cdaf.io/articles/</loc>
+    <loc>https://blog.cdaf.io/articles/containers-at-scale/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cdaf.io/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cdaf.io/articles/variable-validation/</loc>
+    <lastmod>2021-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cdaf.io/articles/</loc>
     <lastmod>2021-04-05T08:04:45+12:00</lastmod>
   </url><url>
-    <loc>http://blog.cdaf.io/</loc>
-    <lastmod>2021-04-05T08:04:45+12:00</lastmod>
-  </url><url>
-    <loc>http://blog.cdaf.io/articles/flamboyant/</loc>
+    <loc>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</loc>
     <lastmod>2021-04-04T19:45:43+12:00</lastmod>
   </url><url>
-    <loc>http://blog.cdaf.io/articles/ghost/</loc>
+    <loc>https://blog.cdaf.io/articles/feature-branch-environments/</loc>
     <lastmod>2021-04-04T19:45:35+12:00</lastmod>
   </url><url>
-    <loc>http://blog.cdaf.io/articles/containers-at-scale/</loc>
-    <lastmod>2021-04-04T19:45:08+12:00</lastmod>
-  </url><url>
-    <loc>http://blog.cdaf.io/posts/</loc>
+    <loc>https://blog.cdaf.io/posts/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cdaf.io/posts/my-first-post/</loc>
+    <loc>https://blog.cdaf.io/posts/my-first-post/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cdaf.io/about/</loc>
+    <loc>https://blog.cdaf.io/about/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cdaf.io/categories/</loc>
+    <loc>https://blog.cdaf.io/categories/</loc>
   </url><url>
-    <loc>http://blog.cdaf.io/tags/</loc>
+    <loc>https://blog.cdaf.io/tags/</loc>
   </url>
 </urlset>
