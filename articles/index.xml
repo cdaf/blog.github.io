@@ -6,7 +6,17 @@
     <description>Recent content in Articles on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do-Nothing Pipeline</title>
+      <link>https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/</guid>
+      <description>Entering Sprint-0 To embed automation into the feature development lifecycle, a pipeline should exist at the earliest possible time, configured to initially &amp;ldquo;do nothing&amp;rdquo; at deploy time. Using the CDAF samples for Linux or Windows, an operational pipeline can be created quickly.
+Enough to make it run Install CDAF for Linux or Windows and seed your solution. At this point you have the bare minimum to produce an executable deployment artefact.</description>
+    </item>
+    
     <item>
       <title>Containers at Scale</title>
       <link>https://blog.cdaf.io/articles/containers-at-scale/</link>
