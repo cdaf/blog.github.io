@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 16 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Blog Issues</title>
+      <link>https://blog.cdaf.io/issues/</link>
+      <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/issues/</guid>
+      <description>All CDAF related issues are managed in GitHub
+For issues with material in this blog, please raise in blog.cdaf.io/issues
+For issues with the Continuous Delivery Automation Framework itself, raise for Windows or Linux.
+For issues with documentation, raise in docs.cdaf.io/issues.
+Hugo Generated site version : 0.92.2</description>
+    </item>
+    
+    <item>
       <title>Test Automation as a Product</title>
       <link>https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
