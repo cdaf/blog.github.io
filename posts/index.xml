@@ -6,7 +6,18 @@
     <description>Recent content in Posts on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MASKED using SHA256</title>
+      <link>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</guid>
+      <description>MASKED Replaces MD5MSK The MD5MSK operation will be removed in the next breaking change. The new operation MASKED does not reference the algorithm to allow for changes (though unlikely) in the future.
+MASKED $PASSWORD Returns uppercase (as per MD5MSK, in both Linux and Windows) checksum.
+A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret mask Also for the VARCHK operation, when a property is secret or checksum verified, SHA256 algoithm is used. For this example property file</description>
+    </item>
+    
     <item>
       <title>Resolve and Reveal</title>
       <link>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</link>

@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.cdaf.io/</loc>
+    <lastmod>2022-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</loc>
+    <lastmod>2022-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cdaf.io/posts/</loc>
+    <lastmod>2022-06-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.cdaf.io/articles/</loc>
     <lastmod>2022-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cdaf.io/issues/</loc>
-    <lastmod>2022-05-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cdaf.io/</loc>
     <lastmod>2022-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/</loc>
@@ -16,9 +22,6 @@
   </url><url>
     <loc>https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/</loc>
     <lastmod>2022-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cdaf.io/posts/</loc>
-    <lastmod>2022-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</loc>
     <lastmod>2022-05-02T00:00:00+00:00</lastmod>
