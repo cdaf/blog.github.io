@@ -37,8 +37,9 @@ Hugo Generated site version : 0.92.2</description>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/</guid>
-      <description>This article is not a discussion about unit testing, this is test automation, i.e. the Behavior-driven development model.
-Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.</description>
+      <description>Behavior-driven development in dependent pipelines.
+Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.
+Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline.</description>
     </item>
     
     <item>

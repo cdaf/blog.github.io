@@ -28,22 +28,25 @@
     
     
     <meta property="og:title" content="Test Automation as a Product" />
-<meta property="og:description" content="This article is not a discussion about unit testing, this is test automation, i.e. the Behavior-driven development model.
-Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile." />
+<meta property="og:description" content="Behavior-driven development in dependent pipelines.
+Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.
+Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2022-05-16T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-05-16T00:00:00+00:00" />
 
 <meta itemprop="name" content="Test Automation as a Product">
-<meta itemprop="description" content="This article is not a discussion about unit testing, this is test automation, i.e. the Behavior-driven development model.
-Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile."><meta itemprop="datePublished" content="2022-05-16T00:00:00+00:00" />
+<meta itemprop="description" content="Behavior-driven development in dependent pipelines.
+Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.
+Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline."><meta itemprop="datePublished" content="2022-05-16T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-05-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="214">
+<meta itemprop="wordCount" content="336">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Test Automation as a Product"/>
-<meta name="twitter:description" content="This article is not a discussion about unit testing, this is test automation, i.e. the Behavior-driven development model.
-Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile."/>
+<meta name="twitter:description" content="Behavior-driven development in dependent pipelines.
+Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.
+Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline."/>
 
       
     
@@ -190,16 +193,19 @@ Status Quo It is very common for automated tests to be executed from a test deve
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This article is not a discussion about unit testing, this is test automation, i.e. the Behavior-driven development model.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Behavior-driven development in dependent pipelines.</p>
 <h1 id="status-quo">Status Quo</h1>
 <p>It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.</p>
 <h2 id="execution-from-a-pipeline">Execution from a Pipeline</h2>
-<p>With test execution being performed source, it is a natural progression to use this same method in a pipeline. While this provides a level of automation, it continues to be volatile based on what is happening in source control.</p>
+<p>With test execution being performed from source, it is a natural progression to use this same method in a pipeline. While this provides a level of automation, it continues to be volatile based on what is happening in source control.</p>
 <h2 id="is-there-a-better-way">Is there a better way?</h2>
-<p>Software development has carved this path in the past. If we think of test automation as being a depdendency of our deployment, it makes sense that the process software development uses to address the same challenge can be used in test automation.</p>
+<p>Software development has carved this path in the past. If we think of test automation as being a dependency of our deployment, it makes sense that the process software development uses to address the same challenge can be used in test automation. The key is to build a runnable artefact from your test automation source and store that in a a registry, to be consumed by the software development pipeline that needs to be tested.</p>
 <h2 id="so-how-do-they-do-it">So how do they do it?</h2>
-<p>Software has dependencies on 3rd party components. The source of these components is not brought into the development process, instead, versioned artefacts are brought in using dependency management tools, such as NPM, PiP, Maven, NuGet, etc.</p>
-<p>&hellip; to be concluded</p>
+<p>Software has dependencies on 3rd party components. The source of these components is <strong>not</strong> brought into the development process, instead, versioned artifacts are included using dependency management tools, such as NPM, PiP, Maven, NuGet, etc.</p>
+<p>These tools can also be used to bring a versioned test artifact into your dependent pipelines to test your changes, however, many test automation tools, i.e. Selenium, have runtime dependencies which can be difficult to fulfill in you pipeline agent, especially one that you do not host yourself.</p>
+<h2 id="containers-to-the-rescue-again">Containers to the Rescue (again)</h2>
+<p>By packing the runnable artefact, along with runtime dependencies into a container image, the tests can be executed within the pipeline. Combined with docker-compose, both the application and the tests can be executed using multiple source IP addresses.</p>
+<p>Like all things in 12-Factor principles, deployments have no relationship to source control, only artifacts.</p>
 <ul class="pa0">
   
 </ul>
