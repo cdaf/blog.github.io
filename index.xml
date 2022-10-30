@@ -6,7 +6,18 @@
     <description>Recent content in Continuous Delivery Automation Framework on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CDAF Build Image</title>
+      <link>https://blog.cdaf.io/articles/2022-10-30-extended-build-image/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/articles/2022-10-30-extended-build-image/</guid>
+      <description>Shift-Left with CDAF Build Image.
+Building In Containers Many CI/CD orchestration tools support building in containers, e.g. GitLab &amp;amp; BitBucket Pipelines, for some of these tools, it is the only supported meethod, e.g. CircleCI &amp;amp; Travis. For these tools the CDAF images have been extended to provide a broad range of software development kits and command line utilities.
+Agent Containers Azure DevOps does not natively support building in containers, however, the Azure DevOps agent is installed on the CDAF Build Image, so one or more containers can be registered and run in Agent Pools or Deployment Groups.</description>
+    </item>
+    
     <item>
       <title>MASKED using SHA256</title>
       <link>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</link>
