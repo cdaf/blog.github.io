@@ -19,17 +19,6 @@ Agent Containers Azure DevOps does not natively support building in containers, 
     </item>
     
     <item>
-      <title>MASKED using SHA256</title>
-      <link>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</link>
-      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</guid>
-      <description>MASKED Replaces MD5MSK The MD5MSK operation will be removed in the next breaking change. The new operation MASKED does not reference the algorithm to allow for changes (though unlikely) in the future.
-MASKED $PASSWORD Returns uppercase (as per MD5MSK, in both Linux and Windows) checksum.
-A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret mask Also for the VARCHK operation, when a property is secret or checksum verified, SHA256 algoithm is used. For this example property file</description>
-    </item>
-    
-    <item>
       <title>Blog Issues</title>
       <link>https://blog.cdaf.io/issues/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
@@ -168,6 +157,17 @@ Each feature can be utilised independently. The containerBuild uses a volume mou
       <guid>https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/</guid>
       <description>The previous output from the CDAF build process was directory of scripts and artifacts, and where remote execution was required, a compressed package. This was slow to upload due to many small files and also didn&amp;rsquo;t provide an obvious realisation of the Build, Run, Release principle.
 The Self-Extracting release now produces and single executable output. This addresses the issues above, while providing a more meaningful output for interpretive solutions, i.e. where no compile process is required.</description>
+    </item>
+    
+    <item>
+      <title>SHA256 Secret Masking</title>
+      <link>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</guid>
+      <description>MASKED using SHA256 The MD5MSK operation will be removed in the next breaking change. The new operation MASKED does not reference the algorithm to allow for changes (though unlikely) in the future.
+MASKED $PASSWORD Returns uppercase (as per MD5MSK, in both Linux and Windows) checksum.
+A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret mask Also for the VARCHK operation, when a property is secret or checksum verified, SHA256 algoithm is used. For this example property file</description>
     </item>
     
     <item>
