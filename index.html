@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Continuous Delivery Automation Framework | blog.cdaf.io</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.111.3">
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -36,7 +36,6 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://blog.cdaf.io/" />
-
 <meta itemprop="name" content="Continuous Delivery Automation Framework">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Continuous Delivery Automation Framework"/>
@@ -162,7 +161,7 @@
       
        
           <h1 class="flex-none">
-            Recent Articles
+            Recent Posts
           </h1>
         
 
@@ -180,23 +179,23 @@
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/articles/2022-10-30-extended-build-image/" class="db grow">
-            <img src="https://blog.cdaf.io/images/AdobeStock_190653124.jpeg" class="img" alt="image from CDAF Build Image">
+          <a href="https://blog.cdaf.io/posts/2023-04-25-web-deploy/" class="db grow">
+            <img src="https://blog.cdaf.io/images/AdobeStock_302762284.jpeg" class="img" alt="image from ASP.NET Classic Example">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/articles/2022-10-30-extended-build-image/" class="color-inherit dim link">
-            CDAF Build Image
+          <a href="https://blog.cdaf.io/posts/2023-04-25-web-deploy/" class="color-inherit dim link">
+            ASP.NET Classic Example
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Shift-Left with CDAF Build Image.
-Building In Containers Many CI/CD orchestration tools support building in containers, e.g. GitLab &amp; BitBucket Pipelines, for some of these tools, it is the only supported meethod, e.g. CircleCI &amp; Travis. For these tools the CDAF images have been extended to provide a broad range of software development kits and command line utilities.
-Agent Containers Azure DevOps does not natively support building in containers, however, the Azure DevOps agent is installed on the CDAF Build Image, so one or more containers can be registered and run in Agent Pools or Deployment Groups.
+          Tokenisation of Web Deploy settings file This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
+In this example, a ASP.NET solution is build is being performed to create a Web Deploy package. Generic properties can be tokenised in the Web.Release.config.
+&lt;connectionStrings&gt; &lt;add name=&#34;entities&#34; connectionString=&#34;metadata=res://*/Models.mydb.csdl|res://*/Models.mydb.ssdl|res://*/Models.mydb.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=%spnDBHost%;initial catalog=%spnDBName%;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&amp;quot;&#34; providerName=&#34;System.Data.EntityClient&#34; xdt:Transform=&#34;SetAttributes&#34; xdt:Locator=&#34;Match(name)&#34;/&gt; &lt;/connectionStrings&gt; The construction of web deploy settings for the deploy path is not intuitive and is no longer (after 2010) accessible via the Visual Studio user interface.
         </div>
-          <a href="https://blog.cdaf.io/articles/2022-10-30-extended-build-image/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2023-04-25-web-deploy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -214,23 +213,24 @@ Agent Containers Azure DevOps does not natively support building in containers, 
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/" class="db grow">
-            <img src="https://blog.cdaf.io/images/AdobeStock_305628569.jpeg" class="img" alt="image from Test Automation as a Product">
+          <a href="https://blog.cdaf.io/posts/2023-04-25-maven/" class="db grow">
+            <img src="https://blog.cdaf.io/images/AdobeStock_207437149.jpeg" class="img" alt="image from Java Build Example">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/" class="color-inherit dim link">
-            Test Automation as a Product
+          <a href="https://blog.cdaf.io/posts/2023-04-25-maven/" class="color-inherit dim link">
+            Java Build Example
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Behavior-driven development in dependent pipelines.
-Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.
-Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline.
+          Java Build from Archetype This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
+In this example, a Java build using Maven is performed. A complete reference for operations and built-in variables is available in the [execution engine][mydoc_execution_engine].
+All properties in your CDAF.solution are automatically loaded as variables when the task engine starts:
+archGroupID=co.ntier archArtID=spring-mvc-archetype archVersion=1.0.2 The output of this is placed in a temporary directory based on the solution name.
         </div>
-          <a href="https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2023-04-25-maven/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -248,22 +248,23 @@ Execution from a Pipeline With test execution being performed from source, it is
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/" class="db grow">
-            <img src="https://blog.cdaf.io/images/AdobeStock_379012841.jpeg" class="img" alt="image from Do-Nothing Pipeline">
+          <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="db grow">
+            <img src="https://blog.cdaf.io/images/AdobeStock_101375810.jpeg" class="img" alt="image from Resolve and Reveal">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/" class="color-inherit dim link">
-            Do-Nothing Pipeline
+          <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="color-inherit dim link">
+            Resolve and Reveal
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Entering Sprint-0 To embed automation into the feature development lifecycle, a pipeline should exist at the earliest possible time, configured to initially &ldquo;do nothing&rdquo; at deploy time. Using the CDAF samples for Linux or Windows, an operational pipeline can be created quickly.
-Enough to make it run Install CDAF for Linux or Windows and seed your solution. At this point you have the bare minimum to produce an executable deployment artefact.
+          PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.
+For the following example tokenised settings file, for example variables.tf
+variable &#34;terraform_token&#34; { default = &#34;%terraform_token%&#34; }variable &#34;api_ip&#34; { default = &#34;%api_ip%&#34; }variable &#34;redis_cache&#34; { default = &#34;%redis_cache%&#34; } Non-sensitive variable mapping can be applied to the properties.
         </div>
-          <a href="https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -280,33 +281,33 @@ Enough to make it run Install CDAF for Linux or Windows and seed your solution. 
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/containers-at-scale/" class="link black dim">
-              Containers at Scale
+            <a href="https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/" class="link black dim">
+              CDAF containerDeploy
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/autonomous-development-authoritative-release/" class="link black dim">
-              Autonomous Development, Authoritative Release.
+            <a href="https://blog.cdaf.io/posts/2022-02-21-variable-validation/" class="link black dim">
+              Variable Validation
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/tabular-configuration-management/" class="link black dim">
-              Tabular Configuration Management
+            <a href="https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/" class="link black dim">
+              CDAF Feature Branch Environments
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/" class="link black dim">
-              CDAF Self-hosted Pipeline Container Solution
+            <a href="https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/" class="link black dim">
+              Upcoming CDAF Policy Changes
             </a>
           </h2>
         
 
         
         
-          <a href="https://blog.cdaf.io/articles/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Articles</a>
+          <a href="https://blog.cdaf.io/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
         
         </section>
       

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Tabular Configuration Management | blog.cdaf.io</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.111.3">
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -34,7 +34,6 @@ With CDAF being Enterprise oriented, a business centric approach is followed. A 
 <meta property="og:url" content="https://blog.cdaf.io/articles/tabular-configuration-management/" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2021-03-09T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-03-09T00:00:00+00:00" />
-
 <meta itemprop="name" content="Tabular Configuration Management">
 <meta itemprop="description" content="Configuration Management and Tokenised Properties Following the Twelve-Factor principle of configuration separation from the artifact, it is common to have developer centric representations of configuration, for example XML, JSON or YAML, and while these are native to developers, they can be obscure to business or operational users.
 With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i."><meta itemprop="datePublished" content="2021-03-09T00:00:00+00:00" />
@@ -204,9 +203,9 @@ local    dev     kot-dev     $KOT_DEV_TOKEN   10.240.10.10  10.240.10.20
 local    test    kot-test    $KOT_TEST_TOKEN  10.240.10.11  10.240.10.21
 local    prod    kot-prod    $KOT_PROD_TOKEN  10.240.10.10  10.240.10.20
 </code></pre><p>It is then a case of having a single, tokenised, native file as part of the build output, which is then detokenised at deploy time.</p>
-<pre tabindex="0"><code>variable &quot;openshift_token&quot;   { default = %openshift_token%&quot; }
-variable &quot;api_ip&quot;            { default = &quot;%api_ip%&quot; }
-variable &quot;ui_ip&quot;             { default = &quot;%ui_ip%&quot; }
+<pre tabindex="0"><code>variable &#34;openshift_token&#34;   { default = %openshift_token%&#34; }
+variable &#34;api_ip&#34;            { default = &#34;%api_ip%&#34; }
+variable &#34;ui_ip&#34;             { default = &#34;%ui_ip%&#34; }
 </code></pre><ul class="pa0">
   
 </ul>

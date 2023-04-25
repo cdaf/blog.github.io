@@ -5,7 +5,6 @@
     <link>https://blog.cdaf.io/articles/</link>
     <description>Recent content in Articles on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CDAF Build Image</title>
@@ -46,7 +45,6 @@ Enough to make it run Install CDAF for Linux or Windows and seed your solution. 
       
       <guid>https://blog.cdaf.io/articles/containers-at-scale/</guid>
       <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.
-
 Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.</description>
     </item>
     

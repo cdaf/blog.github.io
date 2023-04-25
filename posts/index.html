@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Posts | blog.cdaf.io</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.111.3">
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -36,7 +36,6 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://blog.cdaf.io/posts/" />
-
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -154,6 +153,41 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
+      <a href="https://blog.cdaf.io/posts/2023-04-25-web-deploy/" class="link black dim">
+        ASP.NET Classic Example
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Tokenisation of Web Deploy settings file This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
+In this example, a ASP.NET solution is build is being performed to create a Web Deploy package. Generic properties can be tokenised in the Web.Release.config.
+&lt;connectionStrings&gt; &lt;add name=&#34;entities&#34; connectionString=&#34;metadata=res://*/Models.mydb.csdl|res://*/Models.mydb.ssdl|res://*/Models.mydb.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=%spnDBHost%;initial catalog=%spnDBName%;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&amp;quot;&#34; providerName=&#34;System.Data.EntityClient&#34; xdt:Transform=&#34;SetAttributes&#34; xdt:Locator=&#34;Match(name)&#34;/&gt; &lt;/connectionStrings&gt; The construction of web deploy settings for the deploy path is not intuitive and is no longer (after 2010) accessible via the Visual Studio user interface.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://blog.cdaf.io/posts/2023-04-25-maven/" class="link black dim">
+        Java Build Example
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Java Build from Archetype This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
+In this example, a Java build using Maven is performed. A complete reference for operations and built-in variables is available in the [execution engine][mydoc_execution_engine].
+All properties in your CDAF.solution are automatically loaded as variables when the task engine starts:
+archGroupID=co.ntier archArtID=spring-mvc-archetype archVersion=1.0.2 The output of this is placed in a temporary directory based on the solution name.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
       <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="link black dim">
         Resolve and Reveal
       </a>
@@ -161,7 +195,7 @@
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.
 For the following example tokenised settings file, for example variables.tf
-variable &quot;terraform_token&quot; { default = &quot;%terraform_token%&quot; }variable &quot;api_ip&quot; { default = &quot;%api_ip%&quot; }variable &quot;redis_cache&quot; { default = &quot;%redis_cache%&quot; }Non-sensitive variable mapping can be applied to the properties.
+variable &#34;terraform_token&#34; { default = &#34;%terraform_token%&#34; }variable &#34;api_ip&#34; { default = &#34;%api_ip%&#34; }variable &#34;redis_cache&#34; { default = &#34;%redis_cache%&#34; } Non-sensitive variable mapping can be applied to the properties.
     </div>
   </div>
 </div>
@@ -194,7 +228,7 @@ When deploying to remote targets using Web/REST API, or command line interfaces,
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
-VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets.
+VARCHK properties.filenameThere are 5 rules available, two for plain text and three for secrets. When validating a secret against a known MD5 value, either a literal or variable can be supplied.
     </div>
   </div>
 </div>
@@ -211,7 +245,6 @@ VARCHK properties.filename There are 5 rules available, two for plain text and 
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
 The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-
 Important note: beware of potential environment drift over time as different environments receive different updates.
     </div>
   </div>
