@@ -24,9 +24,9 @@ In this example, a ASP.NET solution is build is being performed to create a Web 
       
       <guid>https://blog.cdaf.io/posts/2023-04-25-maven/</guid>
       <description>Java Build from Archetype This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
-In this example, a Java build using Maven is performed. A complete reference for operations and built-in variables is available in the [execution engine][mydoc_execution_engine].
-All properties in your CDAF.solution are automatically loaded as variables when the task engine starts:
-archGroupID=co.ntier archArtID=spring-mvc-archetype archVersion=1.0.2 The output of this is placed in a temporary directory based on the solution name.</description>
+In this example, the version is automatically incremented by placing a variable in the pom.xml file
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; .. &amp;lt;artifactId&amp;gt;springboot&amp;lt;/artifactId&amp;gt; &amp;lt;groupId&amp;gt;io.cdaf&amp;lt;/groupId&amp;gt; &amp;lt;name&amp;gt;Spring Boot Data REST Sample&amp;lt;/name&amp;gt; &amp;lt;description&amp;gt;Spring Boot Data REST Sample&amp;lt;/description&amp;gt; &amp;lt;version&amp;gt;0.2.${build.number}&amp;lt;/version&amp;gt; In the build task, the build number is supplied as a maven parameter
+mvn --batch-mode --file springboot/pom.</description>
     </item>
     
     <item>

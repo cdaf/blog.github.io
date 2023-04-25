@@ -36,7 +36,7 @@
 <meta itemprop="name" content="Java Build Example">
 <meta itemprop="description" content="Java Build from Archetype"><meta itemprop="datePublished" content="2023-04-25T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-04-25T00:00:00+00:00" />
-<meta itemprop="wordCount" content="113">
+<meta itemprop="wordCount" content="74">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Java Build Example"/>
 <meta name="twitter:description" content="Java Build from Archetype"/>
@@ -200,15 +200,18 @@
 <blockquote>
 <p>This content has been moved from the generic <a href="https://docs.cdaf.io/mydoc_basics_build_tasks.html">CDAF Docs</a> material as it distracted from the common concepts.</p>
 </blockquote>
-<p>In this example, a Java build using Maven is performed. A complete reference for operations and built-in variables is available in the [execution engine][mydoc_execution_engine].</p>
-<p>All properties in your CDAF.solution are automatically loaded as variables when the task engine starts:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-properties" data-lang="properties"><span style="display:flex;"><span><span style="color:#a6e22e">archGroupID</span><span style="color:#f92672">=</span><span style="color:#e6db74">co.ntier</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">archArtID</span><span style="color:#f92672">=</span><span style="color:#e6db74">spring-mvc-archetype</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">archVersion</span><span style="color:#f92672">=</span><span style="color:#e6db74">1.0.2</span>
-</span></span></code></pre></div><p>The output of this is placed in a temporary directory based on the solution name. The CDAF operation <code>REMOVE</code> is used to clean this temporary directory using the built-in variable, <code>$SOLUTION</code>. Once clean, the Maven build is performed:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>REMOVE <span style="color:#e6db74">${</span>SOLUTION<span style="color:#e6db74">}</span>
+<p>In this example, the version is automatically incremented by placing a variable in the <code>pom.xml</code> file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>mvn --batch-mode archetype:generate -D<span style="color:#e6db74">&#34;archetypeGroupId=</span><span style="color:#e6db74">${</span>archGroupID<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -D<span style="color:#e6db74">&#34;archetypeArtifactId=</span><span style="color:#e6db74">${</span>archArtID<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -D<span style="color:#e6db74">&#34;archetypeVersion=</span><span style="color:#e6db74">${</span>archVersion<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -D<span style="color:#e6db74">&#34;groupId=io.cdaf.java&#34;</span> -D<span style="color:#e6db74">&#34;artifactId=</span><span style="color:#e6db74">${</span>SOLUTION<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -D<span style="color:#e6db74">&#34;version=</span><span style="color:#e6db74">${</span>artifactPrefix<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  ..
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;artifactId&gt;</span>springboot<span style="color:#f92672">&lt;/artifactId&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;groupId&gt;</span>io.cdaf<span style="color:#f92672">&lt;/groupId&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;name&gt;</span>Spring Boot Data REST Sample<span style="color:#f92672">&lt;/name&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;description&gt;</span>Spring Boot Data REST Sample<span style="color:#f92672">&lt;/description&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;version&gt;</span>0.2.${build.number}<span style="color:#f92672">&lt;/version&gt;</span>
+</span></span></code></pre></div><p>In the <a href="https://docs.cdaf.io/mydoc_basics_build_tasks.html">build task</a>, the build number is supplied as a maven parameter</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mvn --batch-mode --file springboot/pom.xml package -D<span style="color:#e6db74">&#34;build.number=</span><span style="color:#e6db74">${</span>BUILDNUMBER<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 </span></span></code></pre></div><ul class="pa0">
   
 </ul>
