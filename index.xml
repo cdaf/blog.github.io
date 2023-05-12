@@ -92,7 +92,7 @@ variable &amp;#34;terraform_token&amp;#34; { default = &amp;#34;%terraform_token
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/</guid>
-      <description>containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.
+      <description>Deployment from within Container using &amp;#39;Remote&amp;#39; artefacts containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.
 By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.
 When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.</description>
     </item>
