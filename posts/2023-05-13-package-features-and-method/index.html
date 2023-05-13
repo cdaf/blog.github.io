@@ -36,7 +36,7 @@
 <meta itemprop="name" content="packageFeatures and packageMethod">
 <meta itemprop="description" content="Package Features and Method"><meta itemprop="datePublished" content="2023-05-13T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-05-13T00:00:00+00:00" />
-<meta itemprop="wordCount" content="199">
+<meta itemprop="wordCount" content="203">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="packageFeatures and packageMethod"/>
 <meta name="twitter:description" content="Package Features and Method"/>
@@ -197,11 +197,12 @@
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="hahahugoshortcodes0hbhb">Package Features and Method</h2>
+<h3 id="package-features">Package Features</h3>
 <p>As CDAF has grown, there has been a constant growth in the number of helper scripts available, however, in many cases only a subset of these are needed at deploy time, so packageFeatures has been introduced to support different deployment use cases, starting with <code>minimal</code>.</p>
 <p>The <code>minimal</code> set, as the name implies, is the smallest number of helper scripts to execute a deployment. The deployment is limited to <code>local</code> context, so it is recommended to reduce the <code>processSequence</code> in your <code>CDAF.solution</code> file.</p>
 <pre tabindex="0"><code>packageFeatures=minimal
 processSequence=localTasks.sh
-</code></pre><h2 id="windows-self-extracting-releaseps1-using-tarball">Windows Self-Extracting Release.ps1 using tarball</h2>
+</code></pre><h3 id="package-method-windows-self-extracting-releaseps1-using-tarball">Package Method, Windows Self-Extracting Release.ps1 using tarball</h3>
 <p>Now that tar is included in the windows operating system, this can be used for processing large artefact sets. The PowerShell zip process is performed in memory, and is very slow for large artefact sets, and in extreme cases, can fail when memory is exhausted. By using a tarball, the extraction is performed as a file stream, which uses nominal memory and is exponentially faster, i.e. for a 200MB package the extraction reduces from 7 minutes to 7 seconds.</p>
 <p>In your <code>CDAF.solution</code> file, add the <code>packageMethod</code> property</p>
 <pre tabindex="0"><code>packageMethod=tarball
