@@ -18,10 +18,10 @@ The minimal set, as the name implies, is the smallest number of helper scripts t
     
     <item>
       <title>ASP.NET Classic Example</title>
-      <link>https://blog.cdaf.io/posts/2023-04-25-web-deploy/</link>
+      <link>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/2023-04-25-web-deploy/</guid>
+      <guid>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</guid>
       <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
 Tokenisation of Web Deploy settings file This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
 In this example, a ASP.NET solution is build is being performed to create a Web Deploy package. Generic properties can be tokenised in the Web.Release.config.
@@ -30,10 +30,10 @@ In this example, a ASP.NET solution is build is being performed to create a Web 
     
     <item>
       <title>Java Example</title>
-      <link>https://blog.cdaf.io/posts/2023-04-25-maven/</link>
+      <link>https://blog.cdaf.io/articles/2023-04-25-maven/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cdaf.io/posts/2023-04-25-maven/</guid>
+      <guid>https://blog.cdaf.io/articles/2023-04-25-maven/</guid>
       <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
 Java Build and Deploy using CDAF This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
 In this example, the version is automatically incremented by placing a variable in the pom.xml file
