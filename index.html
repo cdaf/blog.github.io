@@ -161,7 +161,7 @@
       
        
           <h1 class="flex-none">
-            Recent Articles
+            Recent Posts
           </h1>
         
 
@@ -179,24 +179,25 @@
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/articles/2023-04-25-web-deploy/" class="db grow">
-            <img src="https://blog.cdaf.io/images/AdobeStock_302762284.jpeg" class="img" alt="image from ASP.NET Classic Example">
+          <a href="https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/" class="db grow">
+            <img src="https://blog.cdaf.io/images/AdobeStock_218621524.jpeg" class="img" alt="image from Self-hosted Containers">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/articles/2023-04-25-web-deploy/" class="color-inherit dim link">
-            ASP.NET Classic Example
+          <a href="https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/" class="color-inherit dim link">
+            Self-hosted Containers
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Tokenisation of Web Deploy settings file This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
-In this example, a ASP.NET solution is build is being performed to create a Web Deploy package. Generic properties can be tokenised in the Web.Release.config.
-&lt;connectionStrings&gt; &lt;add name=&#34;entities&#34; connectionString=&#34;metadata=res://*/Models.mydb.csdl|res://*/Models.mydb.ssdl|res://*/Models.mydb.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=%spnDBHost%;initial catalog=%spnDBName%;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&amp;quot;&#34; providerName=&#34;System.
+          Opinionated Docker Image and Container Management CDAF 2.6.1 &amp; 2.6.2
+With the progressive introduction of image and container management to CDAF, there has been a level of inconsistency around how the process operates.
+The primary use case for CDAF containers is for self-hosted agents/runners to provide a similar capability to container native orchestration tools, e.g. GitLab and BitBucket Pipelines.
+The following is a summary of the supported processes.
+containerBuild Used to perform the build prcess within a container.
         </div>
-          <a href="https://blog.cdaf.io/articles/2023-04-25-web-deploy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -214,24 +215,23 @@ In this example, a ASP.NET solution is build is being performed to create a Web 
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/articles/2023-04-25-maven/" class="db grow">
-            <img src="https://blog.cdaf.io/images/AdobeStock_207437149.jpeg" class="img" alt="image from Java Example">
+          <a href="https://blog.cdaf.io/posts/2023-06-01-cascading-properties/" class="db grow">
+            <img src="https://blog.cdaf.io/images/AdobeStock_324037612.jpeg" class="img" alt="image from Cascading Properties">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/articles/2023-04-25-maven/" class="color-inherit dim link">
-            Java Example
+          <a href="https://blog.cdaf.io/posts/2023-06-01-cascading-properties/" class="color-inherit dim link">
+            Cascading Properties
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Java Build and Deploy using CDAF This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
-In this example, the version is automatically incremented by placing a variable in the pom.xml file
-&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt; .. &lt;artifactId&gt;springboot&lt;/artifactId&gt; &lt;groupId&gt;io.cdaf&lt;/groupId&gt; &lt;name&gt;Spring Boot Data REST Sample&lt;/name&gt; &lt;description&gt;Spring Boot Data REST Sample&lt;/description&gt; &lt;version&gt;0.
+          Environment, Solution and Function Properties Release 2.6.0 is the start of applying consistent prioritised properties. The principle of application, from highest to lowest is
+Arguments Environment Variables Solution Properties Existing Features The application is progressive, starting with existing properties which have environment variable format
+CDAF_REGISTRY_URLCDAF_REGISTRY_TAGCDAF_REGISTRY_USERCDAF_REGISTRY_TOKENCDAF_HOME_MOUNTCDAF_ERROR_DIAG New Features in 2.6.0 Along with these, new properties are introduced to support containerBuild using a base image from a private registry
         </div>
-          <a href="https://blog.cdaf.io/articles/2023-04-25-maven/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2023-06-01-cascading-properties/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -249,23 +249,22 @@ In this example, the version is automatically incremented by placing a variable 
           
         
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://blog.cdaf.io/articles/2022-10-30-extended-build-image/" class="db grow">
-            <img src="https://blog.cdaf.io/images/AdobeStock_190653124.jpeg" class="img" alt="image from CDAF Build Image">
+          <a href="https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/" class="db grow">
+            <img src="https://blog.cdaf.io/images/AdobeStock_401923593.jpeg" class="img" alt="image from packageFeatures and packageMethod">
           </a>
         </div>
       
       <div class="blah w-100 w-60-ns pl3-ns">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://blog.cdaf.io/articles/2022-10-30-extended-build-image/" class="color-inherit dim link">
-            CDAF Build Image
+          <a href="https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/" class="color-inherit dim link">
+            packageFeatures and packageMethod
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Shift-Left with CDAF Build Image.
-Building In Containers Many CI/CD orchestration tools support building in containers, e.g. GitLab &amp; BitBucket Pipelines, for some of these tools, it is the only supported meethod, e.g. CircleCI &amp; Travis. For these tools the CDAF images have been extended to provide a broad range of software development kits and command line utilities.
-Agent Containers Azure DevOps does not natively support building in containers, however, the Azure DevOps agent is installed on the CDAF Build Image, so one or more containers can be registered and run in Agent Pools or Deployment Groups.
+          Package Features and Method Package Features As CDAF has grown, there has been a constant growth in the number of helper scripts available, however, in many cases only a subset of these are needed at deploy time, so packageFeatures has been introduced to support different deployment use cases, starting with minimal.
+The minimal set, as the name implies, is the smallest number of helper scripts to execute a deployment. The deployment is limited to local context, so it is recommended to reduce the processSequence in your CDAF.
         </div>
-          <a href="https://blog.cdaf.io/articles/2022-10-30-extended-build-image/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -282,33 +281,33 @@ Agent Containers Azure DevOps does not natively support building in containers, 
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/" class="link black dim">
-              Test Automation as a Product
+            <a href="https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/" class="link black dim">
+              Resolve and Reveal
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/" class="link black dim">
-              Do-Nothing Pipeline
+            <a href="https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/" class="link black dim">
+              CDAF containerDeploy
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/containers-at-scale/" class="link black dim">
-              Containers at Scale
+            <a href="https://blog.cdaf.io/posts/2022-02-21-variable-validation/" class="link black dim">
+              Variable Validation
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://blog.cdaf.io/articles/autonomous-development-authoritative-release/" class="link black dim">
-              Autonomous Development, Authoritative Release.
+            <a href="https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/" class="link black dim">
+              CDAF Feature Branch Environments
             </a>
           </h2>
         
 
         
         
-          <a href="https://blog.cdaf.io/articles/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Articles</a>
+          <a href="https://blog.cdaf.io/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
         
         </section>
       

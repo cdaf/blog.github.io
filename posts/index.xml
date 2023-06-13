@@ -5,7 +5,20 @@
     <link>https://blog.cdaf.io/posts/</link>
     <description>Recent content in Posts on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-hosted Containers</title>
+      <link>https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/</guid>
+      <description>Opinionated Docker Image and Container Management CDAF 2.6.1 &amp;amp; 2.6.2
+With the progressive introduction of image and container management to CDAF, there has been a level of inconsistency around how the process operates.
+The primary use case for CDAF containers is for self-hosted agents/runners to provide a similar capability to container native orchestration tools, e.g. GitLab and BitBucket Pipelines.
+The following is a summary of the supported processes.
+containerBuild Used to perform the build prcess within a container.</description>
+    </item>
+    
     <item>
       <title>Cascading Properties</title>
       <link>https://blog.cdaf.io/posts/2023-06-01-cascading-properties/</link>
