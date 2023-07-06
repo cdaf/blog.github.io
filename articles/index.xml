@@ -5,7 +5,17 @@
     <link>https://blog.cdaf.io/articles/</link>
     <description>Recent content in Articles on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Debt</title>
+      <link>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</guid>
+      <description>After over a decade of maintaining the Continuous Delivery Automation Framework, the time has come to pause new features to clean out the closet&amp;hellip; or has it?
+The Pain and Patience of Paying off Debt My desire to expunge the mistakes of the past and refresh with best practice glamour has, like in the commercial world, abruptly encountered reality. Feature demands, hidden defects and day-to-day challenges made me reflect on what I wanted to achieve and what I needed to be working.</description>
+    </item>
+    
     <item>
       <title>ASP.NET Classic Example</title>
       <link>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</link>
