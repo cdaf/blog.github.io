@@ -5,7 +5,19 @@
     <link>https://blog.cdaf.io/articles/</link>
     <description>Recent content in Articles on blog.cdaf.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Realising the Feedback Loop</title>
+      <link>https://blog.cdaf.io/articles/2023-07-23-feedback-loop/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cdaf.io/articles/2023-07-23-feedback-loop/</guid>
+      <description>Information Technology Solution Delivery in Enterprise Environments
+Going Beyond Sprint Zero.
+Continuous Delivery to Shift-Left While the DevOps Feedback-Loop, along with finding issues early by moving production-like environments closer to the developer (Shift-Left), are key principles, there is commonly no tangible way of achieving this.
+In the typically incremental progression of continuous delivery implementations, eventually automation is built to deliver to production, and typically, that is where the story ends.</description>
+    </item>
+    
     <item>
       <title>Technical Debt</title>
       <link>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</link>

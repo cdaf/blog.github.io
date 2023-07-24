@@ -179,7 +179,7 @@ containerBuild Used to perform the build prcess within a container.
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Environment, Solution and Function Properties Release 2.6.0 is the start of applying consistent prioritised properties. The principle of application, from highest to lowest is
 Arguments Environment Variables Solution Properties Existing Features The application is progressive, starting with existing properties which have environment variable format
-CDAF_REGISTRY_URLCDAF_REGISTRY_TAGCDAF_REGISTRY_USERCDAF_REGISTRY_TOKENCDAF_HOME_MOUNTCDAF_ERROR_DIAG New Features in 2.6.0 Along with these, new properties are introduced to support containerBuild using a base image from a private registry
+CDAF_REGISTRY_URL CDAF_REGISTRY_TAG CDAF_REGISTRY_USER CDAF_REGISTRY_TOKEN CDAF_HOME_MOUNT CDAF_ERROR_DIAG New Features in 2.6.0 Along with these, new properties are introduced to support containerBuild using a base image from a private registry
     </div>
   </div>
 </div>
@@ -212,7 +212,7 @@ The minimal set, as the name implies, is the smallest number of helper scripts t
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.
 For the following example tokenised settings file, for example variables.tf
-variable &#34;terraform_token&#34; { default = &#34;%terraform_token%&#34; }variable &#34;api_ip&#34; { default = &#34;%api_ip%&#34; }variable &#34;redis_cache&#34; { default = &#34;%redis_cache%&#34; } Non-sensitive variable mapping can be applied to the properties.
+variable &#34;terraform_token&#34; { default = &#34;%terraform_token%&#34; } variable &#34;api_ip&#34; { default = &#34;%api_ip%&#34; } variable &#34;redis_cache&#34; { default = &#34;%redis_cache%&#34; } Non-sensitive variable mapping can be applied to the properties.
     </div>
   </div>
 </div>
@@ -245,7 +245,7 @@ When deploying to remote targets using Web/REST API, or command line interfaces,
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
-VARCHK properties.filenameThere are 5 rules available, two for plain text and three for secrets. When validating a secret against a known MD5 value, either a literal or variable can be supplied.
+VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets. When validating a secret against a known MD5 value, either a literal or variable can be supplied.
     </div>
   </div>
 </div>
