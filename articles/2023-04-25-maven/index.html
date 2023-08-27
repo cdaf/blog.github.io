@@ -225,7 +225,7 @@ local    production  http://perimeter.example.com/pr
 </code></pre><p>Two deployment tasks are needed, first, <code>tasksRunRemote.tsk</code> will deploy the build artefact, using the <a href="https://docs.cdaf.io/mydoc_execution_engine.html">verbose copy</a> operation.</p>
 <pre tabindex="0"><code>VECOPY springboot.war ${runtime}
 </code></pre><p>Once deployed, <code>tasksRunLocal.tsk</code> will test the deployment, using the CDAF helper to cater for delays in WAR file deployment.</p>
-<pre tabindex="0"><code>./executeRetry.sh &#34;curl --silent $deployHost&#34;
+<pre tabindex="0"><code>EXERTY &#34;curl --silent $deployHost&#34;
 </code></pre><ul class="pa0">
   
 </ul>
