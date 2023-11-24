@@ -36,7 +36,7 @@
 <meta itemprop="name" content="Java Example">
 <meta itemprop="description" content="Java Build and Deploy using CDAF"><meta itemprop="datePublished" content="2023-04-25T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-04-25T00:00:00+00:00" />
-<meta itemprop="wordCount" content="228">
+<meta itemprop="wordCount" content="30">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Java Example"/>
 <meta name="twitter:description" content="Java Build and Deploy using CDAF"/>
@@ -199,34 +199,9 @@
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This blog is part of the series of <a href="https://cdaf.io">Continuous Delivery Automation Framework</a> use cases.</p>
 <h2 id="hahahugoshortcodes0hbhb">Java Build and Deploy using CDAF</h2>
 <blockquote>
-<p>This content has been moved from the generic <a href="https://docs.cdaf.io/mydoc_basics_build_tasks.html">CDAF Docs</a> material as it distracted from the common concepts.</p>
+<p>This content has been moved to the <a href="http://learn.cdaf.io/30.java-maven/">CDAF Learning Material</a>.</p>
 </blockquote>
-<p>In this example, the version is automatically incremented by placing a variable in the <code>pom.xml</code> file</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  ..
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;artifactId&gt;</span>springboot<span style="color:#f92672">&lt;/artifactId&gt;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;groupId&gt;</span>io.cdaf<span style="color:#f92672">&lt;/groupId&gt;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;name&gt;</span>Spring Boot Data REST Sample<span style="color:#f92672">&lt;/name&gt;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;description&gt;</span>Spring Boot Data REST Sample<span style="color:#f92672">&lt;/description&gt;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;version&gt;</span>0.2.${build.number}<span style="color:#f92672">&lt;/version&gt;</span>
-</span></span></code></pre></div><p>In the <a href="https://docs.cdaf.io/mydoc_basics_build_tasks.html">build task</a>, the build number is supplied as a maven parameter</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mvn --batch-mode --file springboot/pom.xml package -D<span style="color:#e6db74">&#34;build.number=</span><span style="color:#e6db74">${</span>BUILDNUMBER<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
-</span></span></code></pre></div><p>The resulting artefact is in a subdirectory, buy using the -flat parameter in <code>storeFor</code> the artefact will be placed in the root of release package.</p>
-<pre tabindex="0"><code>springboot/target/springboot.war -flat
-</code></pre><p>In this example, the decreasingly used <a href="https://docs.cdaf.io/mydoc_basics_remote_tasks.html">remote task</a> is implemented to deploy to a remote server, in this case, both pre-production and production are hosted on the same server. Note that there is also a local context, this is used to test the deployment.</p>
-<pre tabindex="0"><code>context  target      deployHost             deployUser  deployLand                    runtime
-remote   staging     perimeter.example.com  tomcat      /opt/packages/$DEPLOY_TARGET  /opt/tomcat/webapps/pp.war
-local    staging     http://perimeter.example.com/pp
-
-remote   production  rails.hdc.company      tomcat      /opt/packages/$DEPLOY_TARGET  /opt/tomcat/webapps/pr.war
-local    production  http://perimeter.example.com/pr
-</code></pre><p>Two deployment tasks are needed, first, <code>tasksRunRemote.tsk</code> will deploy the build artefact, using the <a href="https://docs.cdaf.io/mydoc_execution_engine.html">verbose copy</a> operation.</p>
-<pre tabindex="0"><code>VECOPY springboot.war ${runtime}
-</code></pre><p>Once deployed, <code>tasksRunLocal.tsk</code> will test the deployment, using the CDAF helper to cater for delays in WAR file deployment.</p>
-<pre tabindex="0"><code>EXERTY &#34;curl --silent $deployHost&#34;
-</code></pre><ul class="pa0">
+<ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">

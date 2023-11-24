@@ -35,9 +35,7 @@ The Pain and Patience of Paying off Debt My desire to expunge the mistakes of th
       
       <guid>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</guid>
       <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Tokenisation of Web Deploy settings file This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
-In this example, a ASP.NET solution is build is being performed to create a Web Deploy package. Generic properties can be tokenised in the Web.Release.config.
-&amp;lt;connectionStrings&amp;gt; &amp;lt;add name=&amp;#34;entities&amp;#34; connectionString=&amp;#34;metadata=res://*/Models.mydb.csdl|res://*/Models.mydb.ssdl|res://*/Models.mydb.msl;provider=System.Data.SqlClient;provider connection string=&amp;amp;quot;data source=%spnDBHost%;initial catalog=%spnDBName%;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&amp;amp;quot;&amp;#34; providerName=&amp;#34;System.</description>
+Tokenisation of Web Deploy settings file This content has been moved to the CDAF Learning Material.</description>
     </item>
     
     <item>
@@ -47,9 +45,7 @@ In this example, a ASP.NET solution is build is being performed to create a Web 
       
       <guid>https://blog.cdaf.io/articles/2023-04-25-maven/</guid>
       <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Java Build and Deploy using CDAF This content has been moved from the generic CDAF Docs material as it distracted from the common concepts.
-In this example, the version is automatically incremented by placing a variable in the pom.xml file
-&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; .. &amp;lt;artifactId&amp;gt;springboot&amp;lt;/artifactId&amp;gt; &amp;lt;groupId&amp;gt;io.cdaf&amp;lt;/groupId&amp;gt; &amp;lt;name&amp;gt;Spring Boot Data REST Sample&amp;lt;/name&amp;gt; &amp;lt;description&amp;gt;Spring Boot Data REST Sample&amp;lt;/description&amp;gt; &amp;lt;version&amp;gt;0.</description>
+Java Build and Deploy using CDAF This content has been moved to the CDAF Learning Material.</description>
     </item>
     
     <item>
