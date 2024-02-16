@@ -251,7 +251,7 @@ A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret m
       <guid>https://blog.cdaf.io/about/</guid>
       <description>Continuous Delivery Automation Framework (CDAF) provides a library of common tasks which focus on continuous integration and automated deployment. For more details see https://docs.cdaf.io/
 The framework itself is downloadable from the published site https://cdaf.io/, or can be contributed to at https://github.com/cdaf.
-Hugo Generated site version : 0.111.3</description>
+CDAF Latest version : 2.7.6 Hugo Generated site version : 0.111.3</description>
     </item>
     
   </channel>
