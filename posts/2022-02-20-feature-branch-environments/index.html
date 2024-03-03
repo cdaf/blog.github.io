@@ -29,23 +29,20 @@
     
     <meta property="og:title" content="CDAF Feature Branch Environments" />
 <meta property="og:description" content="The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-Important note: beware of potential environment drift over time as different environments receive different updates." />
+The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-20T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-02-20T00:00:00+00:00" />
 <meta itemprop="name" content="CDAF Feature Branch Environments">
 <meta itemprop="description" content="The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-Important note: beware of potential environment drift over time as different environments receive different updates."><meta itemprop="datePublished" content="2022-02-20T00:00:00+00:00" />
+The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties)."><meta itemprop="datePublished" content="2022-02-20T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-02-20T00:00:00+00:00" />
-<meta itemprop="wordCount" content="126">
+<meta itemprop="wordCount" content="128">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CDAF Feature Branch Environments"/>
 <meta name="twitter:description" content="The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-Important note: beware of potential environment drift over time as different environments receive different updates."/>
+The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties)."/>
 
       
     
@@ -199,7 +196,7 @@ Important note: beware of potential environment drift over time as different env
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.</p>
-<p>The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).</p>
+<p>The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties).</p>
 <p><a href="https://www.linkedin.com/pulse/cdaf-feature-branch-environments-jules-clements/"><img src="/images/1645322502325.png" alt=""></a></p>
 <p>Important note: beware of potential environment drift over time as different environments receive different updates. It is recommended to reset the feature branch environments from master when deployed to production (i.e. are part of your automation pipeline and not a manual process), which will require reapplication of inflight changes.</p>
 <p>For full release details for CDAF 2.4.5 see <a href="http://cdaf.io/release">http://cdaf.io/release</a></p>

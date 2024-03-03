@@ -79,8 +79,7 @@ VARCHK properties.filename There are 5 rules available, two for plain text and t
       
       <guid>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</guid>
       <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-Important note: beware of potential environment drift over time as different environments receive different updates.</description>
+The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties).</description>
     </item>
     
     <item>

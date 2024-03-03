@@ -166,8 +166,7 @@ VARCHK properties.filename There are 5 rules available, two for plain text and t
       
       <guid>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</guid>
       <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on branch name prefix (definition file is feature-branch.properties).
-Important note: beware of potential environment drift over time as different environments receive different updates.</description>
+The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties).</description>
     </item>
     
     <item>
@@ -251,7 +250,7 @@ A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret m
       <guid>https://blog.cdaf.io/about/</guid>
       <description>Continuous Delivery Automation Framework (CDAF) provides a library of common tasks which focus on continuous integration and automated deployment. For more details see https://docs.cdaf.io/
 The framework itself is downloadable from the published site https://cdaf.io/, or can be contributed to at https://github.com/cdaf.
-CDAF Latest version : 2.7.7
+CDAF Latest version : 2.7.8
 This site is generated using the ananke Hugo theme.
 Hugo Generated site version : 0.111.3</description>
     </item>
