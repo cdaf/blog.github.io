@@ -4,123 +4,86 @@
     <title>Articles on blog.cdaf.io</title>
     <link>https://blog.cdaf.io/articles/</link>
     <description>Recent content in Articles on blog.cdaf.io</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.cdaf.io/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Realising the Feedback Loop</title>
       <link>https://blog.cdaf.io/articles/2023-07-23-feedback-loop/</link>
       <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-07-23-feedback-loop/</guid>
-      <description>Information Technology Solution Delivery in Enterprise Environments
-Going Beyond Sprint Zero.
-Continuous Delivery to Shift-Left While the DevOps Feedback-Loop, along with finding issues early by moving production-like environments closer to the developer (Shift-Left), are key principles, there is commonly no tangible way of achieving this.
-In the typically incremental progression of continuous delivery implementations, eventually automation is built to deliver to production, and typically, that is where the story ends.</description>
+      <description>Information Technology Solution Delivery in Enterprise Environments&#xA;Going Beyond Sprint Zero.&#xA;Continuous Delivery to Shift-Left While the DevOps Feedback-Loop, along with finding issues early by moving production-like environments closer to the developer (Shift-Left), are key principles, there is commonly no tangible way of achieving this.&#xA;In the typically incremental progression of continuous delivery implementations, eventually automation is built to deliver to production, and typically, that is where the story ends.</description>
     </item>
-    
     <item>
       <title>Technical Debt</title>
       <link>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</guid>
-      <description>After over a decade of maintaining the Continuous Delivery Automation Framework, the time has come to pause new features to clean out the closet&amp;hellip; or has it?
-The Pain and Patience of Paying off Debt My desire to expunge the mistakes of the past and refresh with best practice glamour has, like in the commercial world, abruptly encountered reality. Feature demands, hidden defects and day-to-day challenges made me reflect on what I wanted to achieve and what I needed to be working.</description>
+      <description>After over a decade of maintaining the Continuous Delivery Automation Framework, the time has come to pause new features to clean out the closet&amp;hellip; or has it?&#xA;The Pain and Patience of Paying off Debt My desire to expunge the mistakes of the past and refresh with best practice glamour has, like in the commercial world, abruptly encountered reality. Feature demands, hidden defects and day-to-day challenges made me reflect on what I wanted to achieve and what I needed to be working.</description>
     </item>
-    
     <item>
       <title>ASP.NET Classic Example</title>
       <link>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</guid>
-      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Tokenisation of Web Deploy settings file This content has been moved to the CDAF Learning Material.</description>
+      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.&#xA;Tokenisation of Web Deploy settings file This content has been moved to the CDAF Learning Material.</description>
     </item>
-    
     <item>
       <title>Java Example</title>
       <link>https://blog.cdaf.io/articles/2023-04-25-maven/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-04-25-maven/</guid>
-      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Java Build and Deploy using CDAF This content has been moved to the CDAF Learning Material.</description>
+      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.&#xA;Java Build and Deploy using CDAF This content has been moved to the CDAF Learning Material.</description>
     </item>
-    
     <item>
       <title>CDAF Build Image</title>
       <link>https://blog.cdaf.io/articles/2022-10-30-extended-build-image/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2022-10-30-extended-build-image/</guid>
-      <description>Shift-Left with CDAF Build Image.
-Building In Containers Many CI/CD orchestration tools support building in containers, e.g. GitLab &amp;amp; BitBucket Pipelines, for some of these tools, it is the only supported meethod, e.g. CircleCI &amp;amp; Travis. For these tools the CDAF images have been extended to provide a broad range of software development kits and command line utilities.
-Agent Containers Azure DevOps does not natively support building in containers, however, the Azure DevOps agent is installed on the CDAF Build Image, so one or more containers can be registered and run in Agent Pools or Deployment Groups.</description>
+      <description>Shift-Left with CDAF Build Image.&#xA;Building In Containers Many CI/CD orchestration tools support building in containers, e.g. GitLab &amp;amp; BitBucket Pipelines, for some of these tools, it is the only supported meethod, e.g. CircleCI &amp;amp; Travis. For these tools the CDAF images have been extended to provide a broad range of software development kits and command line utilities.&#xA;Agent Containers Azure DevOps does not natively support building in containers, however, the Azure DevOps agent is installed on the CDAF Build Image, so one or more containers can be registered and run in Agent Pools or Deployment Groups.</description>
     </item>
-    
     <item>
       <title>Test Automation as a Product</title>
       <link>https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/</guid>
-      <description>Behavior-driven development in dependent pipelines.
-Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.
-Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline.</description>
+      <description>Behavior-driven development in dependent pipelines.&#xA;Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.&#xA;Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline.</description>
     </item>
-    
     <item>
       <title>Do-Nothing Pipeline</title>
       <link>https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/</guid>
-      <description>Entering Sprint-0 To embed automation into the feature development lifecycle, a pipeline should exist at the earliest possible time, configured to initially &amp;ldquo;do nothing&amp;rdquo; at deploy time. Using the CDAF samples for Linux or Windows, an operational pipeline can be created quickly.
-Enough to make it run Install CDAF for Linux or Windows and seed your solution. At this point you have the bare minimum to produce an executable deployment artefact.</description>
+      <description>Entering Sprint-0 To embed automation into the feature development lifecycle, a pipeline should exist at the earliest possible time, configured to initially &amp;ldquo;do nothing&amp;rdquo; at deploy time. Using the CDAF samples for Linux or Windows, an operational pipeline can be created quickly.&#xA;Enough to make it run Install CDAF for Linux or Windows and seed your solution. At this point you have the bare minimum to produce an executable deployment artefact.</description>
     </item>
-    
     <item>
       <title>Containers at Scale</title>
       <link>https://blog.cdaf.io/articles/containers-at-scale/</link>
       <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/containers-at-scale/</guid>
-      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.
-Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.</description>
+      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.&#xA;Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.</description>
     </item>
-    
     <item>
       <title>Autonomous Development, Authoritative Release.</title>
       <link>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</link>
       <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</guid>
-      <description>Realisation with Kubernetes and Terraform Cloud This article is an example realisation of the Containers at Scale, A Containers Journey article, and serves as a demonstration of principles.
-DevOps, as we are all aware, is not a thing, it’s a principle. That being said there are opportunities for material realisation of this principle. Intermediary tools which help exhibit this are Ansible Tower, Puppet Enterprise, Rundeck and Terraform Cloud.
-With competing desires, i.</description>
+      <description>Realisation with Kubernetes and Terraform Cloud This article is an example realisation of the Containers at Scale, A Containers Journey article, and serves as a demonstration of principles.&#xA;DevOps, as we are all aware, is not a thing, it’s a principle. That being said there are opportunities for material realisation of this principle. Intermediary tools which help exhibit this are Ansible Tower, Puppet Enterprise, Rundeck and Terraform Cloud.&#xA;With competing desires, i.</description>
     </item>
-    
     <item>
       <title>Tabular Configuration Management</title>
       <link>https://blog.cdaf.io/articles/tabular-configuration-management/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/tabular-configuration-management/</guid>
-      <description>Configuration Management and Tokenised Properties Following the Twelve-Factor principle of configuration separation from the artifact, it is common to have developer centric representations of configuration, for example XML, JSON or YAML, and while these are native to developers, they can be obscure to business or operational users.
-With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i.</description>
+      <description>Configuration Management and Tokenised Properties Following the Twelve-Factor principle of configuration separation from the artifact, it is common to have developer centric representations of configuration, for example XML, JSON or YAML, and while these are native to developers, they can be obscure to business or operational users.&#xA;With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i.</description>
     </item>
-    
     <item>
       <title>CDAF Self-hosted Pipeline Container Solution</title>
       <link>https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/</guid>
-      <description>Continuous Delivery Automation Framework (CDAF) release 2.4.0 is now available. This completes the Self-hosted Pipeline Container epic and provides an opinionated feature, complimenting the existing containerBuild and targetlessCD features.
-The principles of this solution is to provide the containerised advantages of SaaS offerings like CodeShip, Travis, Circle CI, BitBucket Pipelines, etc. to organisations that host their own CI/CD workloads.
-Each feature can be utilised independently. The containerBuild uses a volume mount to supply the resulting artefacts to the pipeline for upload, while containerDeploy is immutable, being supplied the artefacts as part of the disk image.</description>
+      <description>Continuous Delivery Automation Framework (CDAF) release 2.4.0 is now available. This completes the Self-hosted Pipeline Container epic and provides an opinionated feature, complimenting the existing containerBuild and targetlessCD features.&#xA;The principles of this solution is to provide the containerised advantages of SaaS offerings like CodeShip, Travis, Circle CI, BitBucket Pipelines, etc. to organisations that host their own CI/CD workloads.&#xA;Each feature can be utilised independently. The containerBuild uses a volume mount to supply the resulting artefacts to the pipeline for upload, while containerDeploy is immutable, being supplied the artefacts as part of the disk image.</description>
     </item>
-    
   </channel>
 </rss>

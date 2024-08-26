@@ -4,114 +4,79 @@
     <title>Posts on blog.cdaf.io</title>
     <link>https://blog.cdaf.io/posts/</link>
     <description>Recent content in Posts on blog.cdaf.io</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.cdaf.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-hosted Containers</title>
       <link>https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/</guid>
-      <description>Opinionated Docker Image and Container Management CDAF 2.6.1 &amp;amp; 2.6.2
-With the progressive introduction of image and container management to CDAF, there has been a level of inconsistency around how the process operates.
-The primary use case for CDAF containers is for self-hosted agents/runners to provide a similar capability to container native orchestration tools, e.g. GitLab and BitBucket Pipelines.
-The following is a summary of the supported processes.
-containerBuild Used to perform the build prcess within a container.</description>
+      <description>Opinionated Docker Image and Container Management CDAF 2.6.1 &amp;amp; 2.6.2&#xA;With the progressive introduction of image and container management to CDAF, there has been a level of inconsistency around how the process operates.&#xA;The primary use case for CDAF containers is for self-hosted agents/runners to provide a similar capability to container native orchestration tools, e.g. GitLab and BitBucket Pipelines.&#xA;The following is a summary of the supported processes.&#xA;containerBuild Used to perform the build prcess within a container.</description>
     </item>
-    
     <item>
       <title>Cascading Properties</title>
       <link>https://blog.cdaf.io/posts/2023-06-01-cascading-properties/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2023-06-01-cascading-properties/</guid>
-      <description>Environment, Solution and Function Properties Release 2.6.0 is the start of applying consistent prioritised properties. The principle of application, from highest to lowest is
-Arguments Environment Variables Solution Properties Existing Features The application is progressive, starting with existing properties which have environment variable format
-CDAF_REGISTRY_URL CDAF_REGISTRY_TAG CDAF_REGISTRY_USER CDAF_REGISTRY_TOKEN CDAF_HOME_MOUNT CDAF_ERROR_DIAG New Features in 2.6.0 Along with these, new properties are introduced to support containerBuild using a base image from a private registry</description>
+      <description>Environment, Solution and Function Properties Release 2.6.0 is the start of applying consistent prioritised properties. The principle of application, from highest to lowest is&#xA;Arguments Environment Variables Solution Properties Existing Features The application is progressive, starting with existing properties which have environment variable format&#xA;CDAF_REGISTRY_URL CDAF_REGISTRY_TAG CDAF_REGISTRY_USER CDAF_REGISTRY_TOKEN CDAF_HOME_MOUNT CDAF_ERROR_DIAG New Features in 2.6.0 Along with these, new properties are introduced to support containerBuild using a base image from a private registry</description>
     </item>
-    
     <item>
       <title>packageFeatures and packageMethod</title>
       <link>https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/</guid>
-      <description>Package Features and Method Package Features As CDAF has grown, there has been a constant growth in the number of helper scripts available, however, in many cases only a subset of these are needed at deploy time, so packageFeatures has been introduced to support different deployment use cases, starting with minimal.
-The minimal set, as the name implies, is the smallest number of helper scripts to execute a deployment. The deployment is limited to local context, so it is recommended to reduce the processSequence in your CDAF.</description>
+      <description>Package Features and Method Package Features As CDAF has grown, there has been a constant growth in the number of helper scripts available, however, in many cases only a subset of these are needed at deploy time, so packageFeatures has been introduced to support different deployment use cases, starting with minimal.&#xA;The minimal set, as the name implies, is the smallest number of helper scripts to execute a deployment. The deployment is limited to local context, so it is recommended to reduce the processSequence in your CDAF.</description>
     </item>
-    
     <item>
       <title>Resolve and Reveal</title>
       <link>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</guid>
-      <description>PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.
-For the following example tokenised settings file, for example variables.tf
-variable &amp;#34;terraform_token&amp;#34; { default = &amp;#34;%terraform_token%&amp;#34; } variable &amp;#34;api_ip&amp;#34; { default = &amp;#34;%api_ip%&amp;#34; } variable &amp;#34;redis_cache&amp;#34; { default = &amp;#34;%redis_cache%&amp;#34; } Non-sensitive variable mapping can be applied to the properties.</description>
+      <description>PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.&#xA;For the following example tokenised settings file, for example variables.tf&#xA;variable &amp;#34;terraform_token&amp;#34; { default = &amp;#34;%terraform_token%&amp;#34; } variable &amp;#34;api_ip&amp;#34; { default = &amp;#34;%api_ip%&amp;#34; } variable &amp;#34;redis_cache&amp;#34; { default = &amp;#34;%redis_cache%&amp;#34; } Non-sensitive variable mapping can be applied to the properties.</description>
     </item>
-    
     <item>
       <title>CDAF containerDeploy</title>
       <link>https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/</guid>
-      <description>Deployment from within Container using &amp;#39;Remote&amp;#39; artefacts containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.
-By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.
-When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.</description>
+      <description>Deployment from within Container using &amp;#39;Remote&amp;#39; artefacts containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.&#xA;By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.&#xA;When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.</description>
     </item>
-    
     <item>
       <title>Variable Validation</title>
       <link>https://blog.cdaf.io/posts/2022-02-21-variable-validation/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-02-21-variable-validation/</guid>
-      <description>CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
-VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets. When validating a secret against a known MD5 value, either a literal or variable can be supplied.</description>
+      <description>CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is&#xA;VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets. When validating a secret against a known MD5 value, either a literal or variable can be supplied.</description>
     </item>
-    
     <item>
       <title>CDAF Feature Branch Environments</title>
       <link>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</guid>
-      <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties).</description>
+      <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.&#xA;The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties).</description>
     </item>
-    
     <item>
       <title>Upcoming CDAF Policy Changes</title>
       <link>https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/</guid>
-      <description>Vagrant Rationalisation, Terraform Adoption While support for Vagrant will continue, the extend of regression testing for it will be reduced, i.e. only use cases that I cannot replace with docker will continue to be regression tested. Additional efforts will be make for “Manifest Releases” in Terraform (based on Autonomous Development, Authoritative Release. &amp;amp; Containers at Scale, A Containers Journey.
-CentOS Sunset, UBI8 With the end of CentOS in the infancy of CentOS 8, Fedora support by CDAF will based on Red Hat Universal Base Image (UBI).</description>
+      <description>Vagrant Rationalisation, Terraform Adoption While support for Vagrant will continue, the extend of regression testing for it will be reduced, i.e. only use cases that I cannot replace with docker will continue to be regression tested. Additional efforts will be make for “Manifest Releases” in Terraform (based on Autonomous Development, Authoritative Release. &amp;amp; Containers at Scale, A Containers Journey.&#xA;CentOS Sunset, UBI8 With the end of CentOS in the infancy of CentOS 8, Fedora support by CDAF will based on Red Hat Universal Base Image (UBI).</description>
     </item>
-    
     <item>
       <title>CDAF Self-extracting release</title>
       <link>https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/</guid>
-      <description>The previous output from the CDAF build process was directory of scripts and artifacts, and where remote execution was required, a compressed package. This was slow to upload due to many small files and also didn&amp;rsquo;t provide an obvious realisation of the Build, Run, Release principle.
-The Self-Extracting release now produces and single executable output. This addresses the issues above, while providing a more meaningful output for interpretive solutions, i.e. where no compile process is required.</description>
+      <description>The previous output from the CDAF build process was directory of scripts and artifacts, and where remote execution was required, a compressed package. This was slow to upload due to many small files and also didn&amp;rsquo;t provide an obvious realisation of the Build, Run, Release principle.&#xA;The Self-Extracting release now produces and single executable output. This addresses the issues above, while providing a more meaningful output for interpretive solutions, i.e. where no compile process is required.</description>
     </item>
-    
     <item>
       <title>SHA256 Secret Masking</title>
       <link>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</link>
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</guid>
-      <description>MASKED using SHA256 The MD5MSK operation will be removed in the next breaking change. The new operation MASKED does not reference the algorithm to allow for changes (though unlikely) in the future.
-MASKED $PASSWORD Returns uppercase (as per MD5MSK, in both Linux and Windows) checksum.
-A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret mask Also for the VARCHK operation, when a property is secret or checksum verified, SHA256 algoithm is used. For this example property file</description>
+      <description>MASKED using SHA256 The MD5MSK operation will be removed in the next breaking change. The new operation MASKED does not reference the algorithm to allow for changes (though unlikely) in the future.&#xA;MASKED $PASSWORD Returns uppercase (as per MD5MSK, in both Linux and Windows) checksum.&#xA;A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret mask Also for the VARCHK operation, when a property is secret or checksum verified, SHA256 algoithm is used. For this example property file</description>
     </item>
-    
   </channel>
 </rss>

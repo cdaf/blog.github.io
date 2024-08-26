@@ -4,256 +4,170 @@
     <title>Continuous Delivery Automation Framework on blog.cdaf.io</title>
     <link>https://blog.cdaf.io/</link>
     <description>Recent content in Continuous Delivery Automation Framework on blog.cdaf.io</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cdaf.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.cdaf.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Realising the Feedback Loop</title>
       <link>https://blog.cdaf.io/articles/2023-07-23-feedback-loop/</link>
       <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-07-23-feedback-loop/</guid>
-      <description>Information Technology Solution Delivery in Enterprise Environments
-Going Beyond Sprint Zero.
-Continuous Delivery to Shift-Left While the DevOps Feedback-Loop, along with finding issues early by moving production-like environments closer to the developer (Shift-Left), are key principles, there is commonly no tangible way of achieving this.
-In the typically incremental progression of continuous delivery implementations, eventually automation is built to deliver to production, and typically, that is where the story ends.</description>
+      <description>Information Technology Solution Delivery in Enterprise Environments&#xA;Going Beyond Sprint Zero.&#xA;Continuous Delivery to Shift-Left While the DevOps Feedback-Loop, along with finding issues early by moving production-like environments closer to the developer (Shift-Left), are key principles, there is commonly no tangible way of achieving this.&#xA;In the typically incremental progression of continuous delivery implementations, eventually automation is built to deliver to production, and typically, that is where the story ends.</description>
     </item>
-    
     <item>
       <title>Technical Debt</title>
       <link>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</guid>
-      <description>After over a decade of maintaining the Continuous Delivery Automation Framework, the time has come to pause new features to clean out the closet&amp;hellip; or has it?
-The Pain and Patience of Paying off Debt My desire to expunge the mistakes of the past and refresh with best practice glamour has, like in the commercial world, abruptly encountered reality. Feature demands, hidden defects and day-to-day challenges made me reflect on what I wanted to achieve and what I needed to be working.</description>
+      <description>After over a decade of maintaining the Continuous Delivery Automation Framework, the time has come to pause new features to clean out the closet&amp;hellip; or has it?&#xA;The Pain and Patience of Paying off Debt My desire to expunge the mistakes of the past and refresh with best practice glamour has, like in the commercial world, abruptly encountered reality. Feature demands, hidden defects and day-to-day challenges made me reflect on what I wanted to achieve and what I needed to be working.</description>
     </item>
-    
     <item>
       <title>Self-hosted Containers</title>
       <link>https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2023-06-08-self-hosted-containers/</guid>
-      <description>Opinionated Docker Image and Container Management CDAF 2.6.1 &amp;amp; 2.6.2
-With the progressive introduction of image and container management to CDAF, there has been a level of inconsistency around how the process operates.
-The primary use case for CDAF containers is for self-hosted agents/runners to provide a similar capability to container native orchestration tools, e.g. GitLab and BitBucket Pipelines.
-The following is a summary of the supported processes.
-containerBuild Used to perform the build prcess within a container.</description>
+      <description>Opinionated Docker Image and Container Management CDAF 2.6.1 &amp;amp; 2.6.2&#xA;With the progressive introduction of image and container management to CDAF, there has been a level of inconsistency around how the process operates.&#xA;The primary use case for CDAF containers is for self-hosted agents/runners to provide a similar capability to container native orchestration tools, e.g. GitLab and BitBucket Pipelines.&#xA;The following is a summary of the supported processes.&#xA;containerBuild Used to perform the build prcess within a container.</description>
     </item>
-    
     <item>
       <title>Cascading Properties</title>
       <link>https://blog.cdaf.io/posts/2023-06-01-cascading-properties/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2023-06-01-cascading-properties/</guid>
-      <description>Environment, Solution and Function Properties Release 2.6.0 is the start of applying consistent prioritised properties. The principle of application, from highest to lowest is
-Arguments Environment Variables Solution Properties Existing Features The application is progressive, starting with existing properties which have environment variable format
-CDAF_REGISTRY_URL CDAF_REGISTRY_TAG CDAF_REGISTRY_USER CDAF_REGISTRY_TOKEN CDAF_HOME_MOUNT CDAF_ERROR_DIAG New Features in 2.6.0 Along with these, new properties are introduced to support containerBuild using a base image from a private registry</description>
+      <description>Environment, Solution and Function Properties Release 2.6.0 is the start of applying consistent prioritised properties. The principle of application, from highest to lowest is&#xA;Arguments Environment Variables Solution Properties Existing Features The application is progressive, starting with existing properties which have environment variable format&#xA;CDAF_REGISTRY_URL CDAF_REGISTRY_TAG CDAF_REGISTRY_USER CDAF_REGISTRY_TOKEN CDAF_HOME_MOUNT CDAF_ERROR_DIAG New Features in 2.6.0 Along with these, new properties are introduced to support containerBuild using a base image from a private registry</description>
     </item>
-    
     <item>
       <title>packageFeatures and packageMethod</title>
       <link>https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/</guid>
-      <description>Package Features and Method Package Features As CDAF has grown, there has been a constant growth in the number of helper scripts available, however, in many cases only a subset of these are needed at deploy time, so packageFeatures has been introduced to support different deployment use cases, starting with minimal.
-The minimal set, as the name implies, is the smallest number of helper scripts to execute a deployment. The deployment is limited to local context, so it is recommended to reduce the processSequence in your CDAF.</description>
+      <description>Package Features and Method Package Features As CDAF has grown, there has been a constant growth in the number of helper scripts available, however, in many cases only a subset of these are needed at deploy time, so packageFeatures has been introduced to support different deployment use cases, starting with minimal.&#xA;The minimal set, as the name implies, is the smallest number of helper scripts to execute a deployment. The deployment is limited to local context, so it is recommended to reduce the processSequence in your CDAF.</description>
     </item>
-    
     <item>
       <title>ASP.NET Classic Example</title>
       <link>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</guid>
-      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Tokenisation of Web Deploy settings file This content has been moved to the CDAF Learning Material.</description>
+      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.&#xA;Tokenisation of Web Deploy settings file This content has been moved to the CDAF Learning Material.</description>
     </item>
-    
     <item>
       <title>Java Example</title>
       <link>https://blog.cdaf.io/articles/2023-04-25-maven/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2023-04-25-maven/</guid>
-      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.
-Java Build and Deploy using CDAF This content has been moved to the CDAF Learning Material.</description>
+      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.&#xA;Java Build and Deploy using CDAF This content has been moved to the CDAF Learning Material.</description>
     </item>
-    
     <item>
       <title>CDAF Build Image</title>
       <link>https://blog.cdaf.io/articles/2022-10-30-extended-build-image/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2022-10-30-extended-build-image/</guid>
-      <description>Shift-Left with CDAF Build Image.
-Building In Containers Many CI/CD orchestration tools support building in containers, e.g. GitLab &amp;amp; BitBucket Pipelines, for some of these tools, it is the only supported meethod, e.g. CircleCI &amp;amp; Travis. For these tools the CDAF images have been extended to provide a broad range of software development kits and command line utilities.
-Agent Containers Azure DevOps does not natively support building in containers, however, the Azure DevOps agent is installed on the CDAF Build Image, so one or more containers can be registered and run in Agent Pools or Deployment Groups.</description>
+      <description>Shift-Left with CDAF Build Image.&#xA;Building In Containers Many CI/CD orchestration tools support building in containers, e.g. GitLab &amp;amp; BitBucket Pipelines, for some of these tools, it is the only supported meethod, e.g. CircleCI &amp;amp; Travis. For these tools the CDAF images have been extended to provide a broad range of software development kits and command line utilities.&#xA;Agent Containers Azure DevOps does not natively support building in containers, however, the Azure DevOps agent is installed on the CDAF Build Image, so one or more containers can be registered and run in Agent Pools or Deployment Groups.</description>
     </item>
-    
     <item>
       <title>Blog Issues</title>
       <link>https://blog.cdaf.io/issues/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/issues/</guid>
-      <description>All CDAF related issues are managed in GitHub
-For issues with material in this blog, please raise in blog.cdaf.io/issues
-For issues with the Continuous Delivery Automation Framework itself, raise for Windows or Linux.
-For issues with documentation, raise in docs.cdaf.io/issues.
-Hugo Generated site version : 0.111.3</description>
+      <description>All CDAF related issues are managed in GitHub&#xA;For issues with material in this blog, please raise in blog.cdaf.io/issues&#xA;For issues with the Continuous Delivery Automation Framework itself, raise for Windows or Linux.&#xA;For issues with documentation, raise in docs.cdaf.io/issues.&#xA;Hugo Generated site version : 0.133.0</description>
     </item>
-    
     <item>
       <title>Test Automation as a Product</title>
       <link>https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2022-05-16-test-automation-as-a-product/</guid>
-      <description>Behavior-driven development in dependent pipelines.
-Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.
-Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline.</description>
+      <description>Behavior-driven development in dependent pipelines.&#xA;Status Quo It is very common for automated tests to be executed from a test developers desktop, namely because it has a browser and can render pages locally. To allow testing on a variety of platforms and browsers, BrowserStack is commonly used, which is great! However, this implies that the tests are being run from source, and are therefore volatile.&#xA;Execution from a Pipeline With test execution being performed from source, it is a natural progression to use this same method in a pipeline.</description>
     </item>
-    
     <item>
       <title>Do-Nothing Pipeline</title>
       <link>https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/2022-05-08-do-nothing-pipeline/</guid>
-      <description>Entering Sprint-0 To embed automation into the feature development lifecycle, a pipeline should exist at the earliest possible time, configured to initially &amp;ldquo;do nothing&amp;rdquo; at deploy time. Using the CDAF samples for Linux or Windows, an operational pipeline can be created quickly.
-Enough to make it run Install CDAF for Linux or Windows and seed your solution. At this point you have the bare minimum to produce an executable deployment artefact.</description>
+      <description>Entering Sprint-0 To embed automation into the feature development lifecycle, a pipeline should exist at the earliest possible time, configured to initially &amp;ldquo;do nothing&amp;rdquo; at deploy time. Using the CDAF samples for Linux or Windows, an operational pipeline can be created quickly.&#xA;Enough to make it run Install CDAF for Linux or Windows and seed your solution. At this point you have the bare minimum to produce an executable deployment artefact.</description>
     </item>
-    
     <item>
       <title>Resolve and Reveal</title>
       <link>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-05-02-resolve-and-reveal/</guid>
-      <description>PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.
-For the following example tokenised settings file, for example variables.tf
-variable &amp;#34;terraform_token&amp;#34; { default = &amp;#34;%terraform_token%&amp;#34; } variable &amp;#34;api_ip&amp;#34; { default = &amp;#34;%api_ip%&amp;#34; } variable &amp;#34;redis_cache&amp;#34; { default = &amp;#34;%redis_cache%&amp;#34; } Non-sensitive variable mapping can be applied to the properties.</description>
+      <description>PROPLD and DETOKN Extensions Properties which are mapped to variables can now be directly defined as such. This is particularly useful for values that are only known at deploy time, such as cloud resources which are automatically allocated by the provider or are randomly generated such as UUIDs.&#xA;For the following example tokenised settings file, for example variables.tf&#xA;variable &amp;#34;terraform_token&amp;#34; { default = &amp;#34;%terraform_token%&amp;#34; } variable &amp;#34;api_ip&amp;#34; { default = &amp;#34;%api_ip%&amp;#34; } variable &amp;#34;redis_cache&amp;#34; { default = &amp;#34;%redis_cache%&amp;#34; } Non-sensitive variable mapping can be applied to the properties.</description>
     </item>
-    
     <item>
       <title>CDAF containerDeploy</title>
       <link>https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-04-05-cdaf-containerdeploy/</guid>
-      <description>Deployment from within Container using &amp;#39;Remote&amp;#39; artefacts containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.
-By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.
-When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.</description>
+      <description>Deployment from within Container using &amp;#39;Remote&amp;#39; artefacts containerDeploy, like containerBuild, is intended for self-hosted agent/runner use cases.&#xA;By including the image construction and container execution in source control, the developers remain masters of their own destiny. They can ensure build dependencies are fulfilled while not affecting other users of the agent/runner.&#xA;When deploying to remote targets using Web/REST API, or command line interfaces, containerDeploy can exploit the same principles as containerBuild to ensure the required deploy time dependencies are fulfilled, e.</description>
     </item>
-    
     <item>
       <title>Variable Validation</title>
       <link>https://blog.cdaf.io/posts/2022-02-21-variable-validation/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-02-21-variable-validation/</guid>
-      <description>CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is
-VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets. When validating a secret against a known MD5 value, either a literal or variable can be supplied.</description>
+      <description>CDAF provided tabular configuration management files in late 2018, but until now, did not have a convenient way of verifying these properties when they are loaded as variables, nor environment variables, at deploy time. The VARCHK operation has been added to the execution engine to allow different validation rules and logging. The operation syntax is&#xA;VARCHK properties.filename There are 5 rules available, two for plain text and three for secrets. When validating a secret against a known MD5 value, either a literal or variable can be supplied.</description>
     </item>
-    
     <item>
       <title>CDAF Feature Branch Environments</title>
       <link>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2022-02-20-feature-branch-environments/</guid>
-      <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.
-The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties).</description>
+      <description>The existing feature branch capability in CDAF (Git only, entry.ps1/entry.sh) has been based on docker-compose, for stand-up, test and tear-down environments based on feature branches. For some organizations, where containers are not feasible, i.e. system complexity, proprietary software, a limited number on perpetual environments are available.&#xA;The CDAF extension (2.4.5) allows for the targeting of one or more environments, based on pattern match within branch name (definition file is feature-branch.properties).</description>
     </item>
-    
     <item>
       <title>Upcoming CDAF Policy Changes</title>
       <link>https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2021-09-04-upcoming-cdaf-policy-changes/</guid>
-      <description>Vagrant Rationalisation, Terraform Adoption While support for Vagrant will continue, the extend of regression testing for it will be reduced, i.e. only use cases that I cannot replace with docker will continue to be regression tested. Additional efforts will be make for “Manifest Releases” in Terraform (based on Autonomous Development, Authoritative Release. &amp;amp; Containers at Scale, A Containers Journey.
-CentOS Sunset, UBI8 With the end of CentOS in the infancy of CentOS 8, Fedora support by CDAF will based on Red Hat Universal Base Image (UBI).</description>
+      <description>Vagrant Rationalisation, Terraform Adoption While support for Vagrant will continue, the extend of regression testing for it will be reduced, i.e. only use cases that I cannot replace with docker will continue to be regression tested. Additional efforts will be make for “Manifest Releases” in Terraform (based on Autonomous Development, Authoritative Release. &amp;amp; Containers at Scale, A Containers Journey.&#xA;CentOS Sunset, UBI8 With the end of CentOS in the infancy of CentOS 8, Fedora support by CDAF will based on Red Hat Universal Base Image (UBI).</description>
     </item>
-    
     <item>
       <title>Containers at Scale</title>
       <link>https://blog.cdaf.io/articles/containers-at-scale/</link>
       <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/containers-at-scale/</guid>
-      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.
-Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.</description>
+      <description>A Containers Journey The article is oriented to an organisation’s systems, be in public or internal, and not to product shipping businesses. Using Kubernetes as the example runtime platform is for demonstration purposes only, and this journey is not specific to any given runtime platform. From software development, testing and runtime environments, there are different points of focus and scale.&#xA;Commonly, the development viewpoint may not extend beyond docker (or even local), however when function testing the software, a production like environment is necessary, which is when docker-compose provides a declarative mechanism for creating a testable environment, with code that can be reused in the delivery pipeline and shared among team members.</description>
     </item>
-    
     <item>
       <title>Autonomous Development, Authoritative Release.</title>
       <link>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</link>
       <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/autonomous-development-authoritative-release/</guid>
-      <description>Realisation with Kubernetes and Terraform Cloud This article is an example realisation of the Containers at Scale, A Containers Journey article, and serves as a demonstration of principles.
-DevOps, as we are all aware, is not a thing, it’s a principle. That being said there are opportunities for material realisation of this principle. Intermediary tools which help exhibit this are Ansible Tower, Puppet Enterprise, Rundeck and Terraform Cloud.
-With competing desires, i.</description>
+      <description>Realisation with Kubernetes and Terraform Cloud This article is an example realisation of the Containers at Scale, A Containers Journey article, and serves as a demonstration of principles.&#xA;DevOps, as we are all aware, is not a thing, it’s a principle. That being said there are opportunities for material realisation of this principle. Intermediary tools which help exhibit this are Ansible Tower, Puppet Enterprise, Rundeck and Terraform Cloud.&#xA;With competing desires, i.</description>
     </item>
-    
     <item>
       <title>Tabular Configuration Management</title>
       <link>https://blog.cdaf.io/articles/tabular-configuration-management/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/tabular-configuration-management/</guid>
-      <description>Configuration Management and Tokenised Properties Following the Twelve-Factor principle of configuration separation from the artifact, it is common to have developer centric representations of configuration, for example XML, JSON or YAML, and while these are native to developers, they can be obscure to business or operational users.
-With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i.</description>
+      <description>Configuration Management and Tokenised Properties Following the Twelve-Factor principle of configuration separation from the artifact, it is common to have developer centric representations of configuration, for example XML, JSON or YAML, and while these are native to developers, they can be obscure to business or operational users.&#xA;With CDAF being Enterprise oriented, a business centric approach is followed. A single file of tabular properties is more consumable than a group of native language files, i.</description>
     </item>
-    
     <item>
       <title>CDAF Self-hosted Pipeline Container Solution</title>
       <link>https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/articles/cdaf-self-hosted-pipeline-container-solution/</guid>
-      <description>Continuous Delivery Automation Framework (CDAF) release 2.4.0 is now available. This completes the Self-hosted Pipeline Container epic and provides an opinionated feature, complimenting the existing containerBuild and targetlessCD features.
-The principles of this solution is to provide the containerised advantages of SaaS offerings like CodeShip, Travis, Circle CI, BitBucket Pipelines, etc. to organisations that host their own CI/CD workloads.
-Each feature can be utilised independently. The containerBuild uses a volume mount to supply the resulting artefacts to the pipeline for upload, while containerDeploy is immutable, being supplied the artefacts as part of the disk image.</description>
+      <description>Continuous Delivery Automation Framework (CDAF) release 2.4.0 is now available. This completes the Self-hosted Pipeline Container epic and provides an opinionated feature, complimenting the existing containerBuild and targetlessCD features.&#xA;The principles of this solution is to provide the containerised advantages of SaaS offerings like CodeShip, Travis, Circle CI, BitBucket Pipelines, etc. to organisations that host their own CI/CD workloads.&#xA;Each feature can be utilised independently. The containerBuild uses a volume mount to supply the resulting artefacts to the pipeline for upload, while containerDeploy is immutable, being supplied the artefacts as part of the disk image.</description>
     </item>
-    
     <item>
       <title>CDAF Self-extracting release</title>
       <link>https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2020-07-29-cdaf-self-extracting-release/</guid>
-      <description>The previous output from the CDAF build process was directory of scripts and artifacts, and where remote execution was required, a compressed package. This was slow to upload due to many small files and also didn&amp;rsquo;t provide an obvious realisation of the Build, Run, Release principle.
-The Self-Extracting release now produces and single executable output. This addresses the issues above, while providing a more meaningful output for interpretive solutions, i.e. where no compile process is required.</description>
+      <description>The previous output from the CDAF build process was directory of scripts and artifacts, and where remote execution was required, a compressed package. This was slow to upload due to many small files and also didn&amp;rsquo;t provide an obvious realisation of the Build, Run, Release principle.&#xA;The Self-Extracting release now produces and single executable output. This addresses the issues above, while providing a more meaningful output for interpretive solutions, i.e. where no compile process is required.</description>
     </item>
-    
     <item>
       <title>SHA256 Secret Masking</title>
       <link>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</link>
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/posts/2020-06-05-sha256-mask/</guid>
-      <description>MASKED using SHA256 The MD5MSK operation will be removed in the next breaking change. The new operation MASKED does not reference the algorithm to allow for changes (though unlikely) in the future.
-MASKED $PASSWORD Returns uppercase (as per MD5MSK, in both Linux and Windows) checksum.
-A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret mask Also for the VARCHK operation, when a property is secret or checksum verified, SHA256 algoithm is used. For this example property file</description>
+      <description>MASKED using SHA256 The MD5MSK operation will be removed in the next breaking change. The new operation MASKED does not reference the algorithm to allow for changes (though unlikely) in the future.&#xA;MASKED $PASSWORD Returns uppercase (as per MD5MSK, in both Linux and Windows) checksum.&#xA;A591A6D40BF420404A011733CFB7B190D62C65BF0BCDA32B57B277D9AD9F146E VARCHK secret mask Also for the VARCHK operation, when a property is secret or checksum verified, SHA256 algoithm is used. For this example property file</description>
     </item>
-    
     <item>
       <title>About CDAF</title>
       <link>https://blog.cdaf.io/about/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.cdaf.io/about/</guid>
-      <description>Continuous Delivery Automation Framework (CDAF) provides a library of common tasks which focus on continuous integration and automated deployment. For more details see https://docs.cdaf.io/
-The framework itself is downloadable from the published site https://cdaf.io/, or can be contributed to at https://github.com/cdaf.
-CDAF Latest version : 2.8.0
-This site is generated using the ananke Hugo theme.
-Hugo Generated site version : 0.111.3</description>
+      <description>Continuous Delivery Automation Framework (CDAF) provides a library of common tasks which focus on continuous integration and automated deployment. For more details see https://docs.cdaf.io/&#xA;The framework itself is downloadable from the published site https://cdaf.io/, or can be contributed to at https://github.com/cdaf.&#xA;CDAF Latest version : 2.8.0&#xA;This site is generated using the ananke Hugo theme.&#xA;Hugo Generated site version : 0.133.0</description>
     </item>
-    
   </channel>
 </rss>
