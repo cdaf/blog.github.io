@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Continuous Delivery Automation Framework on blog.cdaf.io</title>
+    <title>Continuous Delivery Musings on blog.cdaf.io</title>
     <link>https://blog.cdaf.io/</link>
-    <description>Recent content in Continuous Delivery Automation Framework on blog.cdaf.io</description>
+    <description>Recent content in Continuous Delivery Musings on blog.cdaf.io</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
@@ -21,6 +21,13 @@
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.cdaf.io/articles/2023-07-06-tech-debt/</guid>
       <description>After over a decade of maintaining the Continuous Delivery Automation Framework, the time has come to pause new features to clean out the closet&amp;hellip; or has it?&#xA;The Pain and Patience of Paying off Debt My desire to expunge the mistakes of the past and refresh with best practice glamour has, like in the commercial world, abruptly encountered reality. Feature demands, hidden defects and day-to-day challenges made me reflect on what I wanted to achieve and what I needed to be working.</description>
+    </item>
+    <item>
+      <title>Migrated Content</title>
+      <link>https://blog.cdaf.io/posts/2024-08-26-migrated-content/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.cdaf.io/posts/2024-08-26-migrated-content/</guid>
+      <description>Some CDAF Articles move to Learn ASP.NET and Java Continuous Delivery Automation Framework (CDAF) articles have been migrated, and extended, in the Learning Material.</description>
     </item>
     <item>
       <title>Self-hosted Containers</title>
@@ -42,20 +49,6 @@
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.cdaf.io/posts/2023-05-13-package-features-and-method/</guid>
       <description>Package Features and Method Package Features As CDAF has grown, there has been a constant growth in the number of helper scripts available, however, in many cases only a subset of these are needed at deploy time, so packageFeatures has been introduced to support different deployment use cases, starting with minimal.&#xA;The minimal set, as the name implies, is the smallest number of helper scripts to execute a deployment. The deployment is limited to local context, so it is recommended to reduce the processSequence in your CDAF.</description>
-    </item>
-    <item>
-      <title>ASP.NET Classic Example</title>
-      <link>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</link>
-      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.cdaf.io/articles/2023-04-25-web-deploy/</guid>
-      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.&#xA;Tokenisation of Web Deploy settings file This content has been moved to the CDAF Learning Material.</description>
-    </item>
-    <item>
-      <title>Java Example</title>
-      <link>https://blog.cdaf.io/articles/2023-04-25-maven/</link>
-      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.cdaf.io/articles/2023-04-25-maven/</guid>
-      <description>This blog is part of the series of Continuous Delivery Automation Framework use cases.&#xA;Java Build and Deploy using CDAF This content has been moved to the CDAF Learning Material.</description>
     </item>
     <item>
       <title>CDAF Build Image</title>
@@ -167,7 +160,7 @@
       <link>https://blog.cdaf.io/about/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.cdaf.io/about/</guid>
-      <description>Continuous Delivery Automation Framework (CDAF) provides a library of common tasks which focus on continuous integration and automated deployment. For more details see https://docs.cdaf.io/&#xA;The framework itself is downloadable from the published site https://cdaf.io/, or can be contributed to at https://github.com/cdaf.&#xA;CDAF Latest version : 2.8.0&#xA;This site is generated using the ananke Hugo theme.&#xA;Hugo Generated site version : 0.133.0</description>
+      <description>Continuous Delivery Automation Framework (CDAF) provides a library of common tasks which focus on continuous integration and automated deployment. The framework itself is downloadable from the published site https://cdaf.io, or can be contributed to at https://cdaf.io.&#xA;CDAF Latest version : 2.8.0&#xA;Related Material The following sites provide CDAF guidance:&#xA;Reference Documentation Learning Material This site is generated using the ananke Hugo theme.&#xA;Hugo Generated site version : 0.133.0</description>
     </item>
   </channel>
 </rss>
